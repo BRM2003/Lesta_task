@@ -4,6 +4,6 @@ import uuid
 
 
 class User(AbstractUser):
-    birth_date = models.DateField()
+    birth_date = models.DateField(null=True, blank=True)
     email = models.EmailField(unique=True)
 

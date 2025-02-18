@@ -1,0 +1,514 @@
+[2025-02-18 14:54:22,501] INFO autoreload 27089 8637510144 Watching for file changes with StatReloader
+[2025-02-18 14:55:01,037] INFO autoreload 27089 8637510144 /Users/br/Desktop/IT/Projects/Lesta/TestTask/words/admin.py changed, reloading.
+[2025-02-18 14:55:01,479] INFO autoreload 27099 8683876864 Watching for file changes with StatReloader
+[2025-02-18 14:55:03,665] INFO basehttp 27099 13113270272 "GET / HTTP/1.1" 200 12068
+[2025-02-18 14:55:03,765] WARNING log 27099 13130059776 Not Found: /apple-touch-icon-precomposed.png
+[2025-02-18 14:55:03,769] WARNING log 27099 13113270272 Not Found: /favicon.ico
+[2025-02-18 14:55:03,770] WARNING basehttp 27099 13130059776 "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 2273
+[2025-02-18 14:55:03,770] WARNING basehttp 27099 13113270272 "GET /favicon.ico HTTP/1.1" 404 2210
+[2025-02-18 14:55:03,775] WARNING log 27099 13130059776 Not Found: /apple-touch-icon.png
+[2025-02-18 14:55:03,775] WARNING basehttp 27099 13130059776 "GET /apple-touch-icon.png HTTP/1.1" 404 2237
+[2025-02-18 14:55:07,479] INFO basehttp 27099 13113270272 "GET /admin/ HTTP/1.1" 302 0
+[2025-02-18 14:55:07,510] INFO basehttp 27099 13113270272 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4164
+[2025-02-18 14:55:07,524] INFO basehttp 27099 13146849280 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2804
+[2025-02-18 14:55:07,526] INFO basehttp 27099 13113270272 "GET /static/admin/css/base.css HTTP/1.1" 200 22092
+[2025-02-18 14:55:07,526] INFO basehttp 27099 13180428288 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+[2025-02-18 14:55:07,526] INFO basehttp 27099 13163638784 "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+[2025-02-18 14:55:07,526] INFO basehttp 27099 13214007296 "GET /static/admin/css/login.css HTTP/1.1" 200 951
+[2025-02-18 14:55:07,527] INFO basehttp 27099 13197217792 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+[2025-02-18 14:55:07,527] INFO basehttp 27099 13146849280 "GET /static/admin/css/responsive.css HTTP/1.1" 200 17972
+[2025-02-18 14:56:11,591] INFO autoreload 27099 8683876864 /Users/br/Desktop/IT/Projects/Lesta/TestTask/users/models.py changed, reloading.
+[2025-02-18 14:56:12,050] INFO autoreload 27188 8676778496 Watching for file changes with StatReloader
+[2025-02-18 14:57:59,403] INFO autoreload 27188 8676778496 /Users/br/Desktop/IT/Projects/Lesta/TestTask/words/models.py changed, reloading.
+[2025-02-18 14:57:59,829] INFO autoreload 27230 8602423808 Watching for file changes with StatReloader
+[2025-02-18 14:58:33,353] INFO autoreload 27230 8602423808 /Users/br/Desktop/IT/Projects/Lesta/TestTask/words/models.py changed, reloading.
+[2025-02-18 14:58:33,773] INFO autoreload 27247 8638177792 Watching for file changes with StatReloader
+[2025-02-18 15:00:04,015] INFO autoreload 27247 8638177792 /Users/br/Desktop/IT/Projects/Lesta/TestTask/users/models.py changed, reloading.
+[2025-02-18 15:00:04,444] INFO autoreload 27318 8637334016 Watching for file changes with StatReloader
+[2025-02-18 15:00:44,024] INFO basehttp 27318 13021286400 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[2025-02-18 15:00:44,099] INFO basehttp 27318 13021286400 "GET /admin/ HTTP/1.1" 200 7282
+[2025-02-18 15:00:44,113] INFO basehttp 27318 13021286400 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+[2025-02-18 15:00:44,127] INFO basehttp 27318 13038075904 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[2025-02-18 15:00:44,127] INFO basehttp 27318 13021286400 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[2025-02-18 15:01:44,037] INFO autoreload 27318 8637334016 /Users/br/Desktop/IT/Projects/Lesta/TestTask/users/admin.py changed, reloading.
+[2025-02-18 15:01:44,475] INFO autoreload 27408 8611238400 Watching for file changes with StatReloader
+[2025-02-18 15:04:11,682] INFO autoreload 27408 8611238400 /Users/br/Desktop/IT/Projects/Lesta/TestTask/users/admin.py changed, reloading.
+[2025-02-18 15:04:12,173] INFO autoreload 27468 8635265536 Watching for file changes with StatReloader
+[2025-02-18 15:04:15,859] INFO basehttp 27468 13017415680 "GET /admin/ HTTP/1.1" 200 8073
+[2025-02-18 15:04:17,159] INFO basehttp 27468 13017415680 "GET /admin/users/user/ HTTP/1.1" 200 10098
+[2025-02-18 15:04:17,182] INFO basehttp 27468 13067784192 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+[2025-02-18 15:04:17,183] INFO basehttp 27468 13017415680 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6878
+[2025-02-18 15:04:17,185] INFO basehttp 27468 13084573696 "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+[2025-02-18 15:04:17,188] INFO basehttp 27468 13101363200 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9097
+[2025-02-18 15:04:17,188] INFO basehttp 27468 13067784192 "GET /static/admin/js/actions.js HTTP/1.1" 200 8076
+[2025-02-18 15:04:17,189] INFO basehttp 27468 13084573696 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+[2025-02-18 15:04:17,189] INFO basehttp 27468 13017415680 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+[2025-02-18 15:04:17,190] INFO basehttp 27468 13067784192 "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+[2025-02-18 15:04:17,191] INFO basehttp 27468 13050994688 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+[2025-02-18 15:04:17,191] INFO basehttp 27468 13101363200 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+[2025-02-18 15:04:17,210] INFO basehttp 27468 13034205184 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-02-18 15:04:17,235] INFO basehttp 27468 13017415680 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[2025-02-18 15:04:19,595] INFO basehttp 27468 13067784192 "GET /admin/users/user/3/change/ HTTP/1.1" 200 22873
+[2025-02-18 15:04:19,604] INFO basehttp 27468 13050994688 "GET /static/admin/css/forms.css HTTP/1.1" 200 8794
+[2025-02-18 15:04:19,605] INFO basehttp 27468 13034205184 "GET /static/admin/js/calendar.js HTTP/1.1" 200 9141
+[2025-02-18 15:04:19,605] INFO basehttp 27468 13084573696 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+[2025-02-18 15:04:19,605] INFO basehttp 27468 13067784192 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+[2025-02-18 15:04:19,606] INFO basehttp 27468 13017415680 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+[2025-02-18 15:04:19,606] INFO basehttp 27468 13050994688 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11564
+[2025-02-18 15:04:19,632] INFO basehttp 27468 13101363200 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-02-18 15:04:19,660] INFO basehttp 27468 13034205184 "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+[2025-02-18 15:04:19,660] INFO basehttp 27468 13017415680 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+[2025-02-18 15:04:53,889] INFO basehttp 27468 13017415680 "GET /admin/users/user/3/change/ HTTP/1.1" 200 22873
+[2025-02-18 15:04:53,934] INFO basehttp 27468 13017415680 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-02-18 15:04:54,021] INFO autoreload 27468 8635265536 /Users/br/Desktop/IT/Projects/Lesta/TestTask/users/admin.py changed, reloading.
+[2025-02-18 15:04:54,476] INFO autoreload 27509 8609636864 Watching for file changes with StatReloader
+[2025-02-18 15:05:25,136] INFO autoreload 27509 8609636864 /Users/br/Desktop/IT/Projects/Lesta/TestTask/users/admin.py changed, reloading.
+[2025-02-18 15:05:25,550] INFO autoreload 27519 8642429440 Watching for file changes with StatReloader
+[2025-02-18 15:05:42,862] INFO autoreload 27519 8642429440 /Users/br/Desktop/IT/Projects/Lesta/TestTask/users/admin.py changed, reloading.
+[2025-02-18 15:05:43,299] INFO autoreload 27531 8645308928 Watching for file changes with StatReloader
+[2025-02-18 15:08:15,121] INFO autoreload 27531 8645308928 /Users/br/Desktop/IT/Projects/Lesta/TestTask/users/admin.py changed, reloading.
+[2025-02-18 15:08:15,542] INFO autoreload 27584 8612626944 Watching for file changes with StatReloader
+[2025-02-18 15:08:51,090] INFO autoreload 27584 8612626944 /Users/br/Desktop/IT/Projects/Lesta/TestTask/users/admin.py changed, reloading.
+[2025-02-18 15:08:51,508] INFO autoreload 27598 8642204160 Watching for file changes with StatReloader
+[2025-02-18 15:09:22,962] INFO autoreload 27598 8642204160 /Users/br/Desktop/IT/Projects/Lesta/TestTask/users/admin.py changed, reloading.
+[2025-02-18 15:09:23,387] INFO autoreload 27611 8641159680 Watching for file changes with StatReloader
+[2025-02-18 15:09:28,214] INFO basehttp 27611 13029220352 "GET /admin/users/user/ HTTP/1.1" 200 13967
+[2025-02-18 15:09:28,246] INFO basehttp 27611 13046009856 "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+[2025-02-18 15:09:28,248] INFO basehttp 27611 13046009856 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+[2025-02-18 15:09:28,276] INFO basehttp 27611 13029220352 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-02-18 15:09:28,332] INFO basehttp 27611 13029220352 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+[2025-02-18 15:09:28,332] INFO basehttp 27611 13046009856 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+[2025-02-18 15:09:31,630] INFO basehttp 27611 13029220352 "GET /admin/users/user/3/change/ HTTP/1.1" 200 22983
+[2025-02-18 15:09:31,669] INFO basehttp 27611 13046009856 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-02-18 15:10:14,229] INFO autoreload 27611 8641159680 /Users/br/Desktop/IT/Projects/Lesta/TestTask/users/admin.py changed, reloading.
+[2025-02-18 15:10:14,670] INFO autoreload 27646 8614502912 Watching for file changes with StatReloader
+[2025-02-18 15:10:56,412] INFO basehttp 27646 12977192960 "GET /admin/users/user/3/change/ HTTP/1.1" 200 22248
+[2025-02-18 15:10:56,460] INFO basehttp 27646 12977192960 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-02-18 15:11:08,244] INFO basehttp 27646 12977192960 "GET /admin/words/file/ HTTP/1.1" 200 11294
+[2025-02-18 15:11:08,293] INFO basehttp 27646 12977192960 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-02-18 15:11:09,646] INFO basehttp 27646 12977192960 "GET /admin/words/word/ HTTP/1.1" 200 11123
+[2025-02-18 15:11:09,694] INFO basehttp 27646 12977192960 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-02-18 15:11:12,466] INFO basehttp 27646 12977192960 "GET /admin/words/wordsinfiles/ HTTP/1.1" 200 11350
+[2025-02-18 15:11:12,521] INFO basehttp 27646 12977192960 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-02-18 15:11:15,594] INFO basehttp 27646 12977192960 "GET /admin/words/file/ HTTP/1.1" 200 11294
+[2025-02-18 15:11:15,645] INFO basehttp 27646 12977192960 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-02-18 15:11:18,815] INFO basehttp 27646 12977192960 "GET /admin/words/file/add/ HTTP/1.1" 200 14373
+[2025-02-18 15:11:18,836] INFO basehttp 27646 12993982464 "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+[2025-02-18 15:11:18,867] INFO basehttp 27646 12977192960 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-02-18 15:11:33,161] INFO autoreload 27646 8614502912 /Users/br/Desktop/IT/Projects/Lesta/TestTask/words/admin.py changed, reloading.
+[2025-02-18 15:11:33,640] INFO autoreload 27705 8677437952 Watching for file changes with StatReloader
+[2025-02-18 15:11:35,401] INFO basehttp 27705 13103521792 "GET /admin/words/file/add/ HTTP/1.1" 200 14458
+[2025-02-18 15:11:35,453] INFO basehttp 27705 13103521792 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-02-18 15:15:23,253] INFO autoreload 27705 8677437952 /Users/br/Desktop/IT/Projects/Lesta/TestTask/words/models.py changed, reloading.
+[2025-02-18 15:15:23,815] INFO autoreload 27769 8675639808 Watching for file changes with StatReloader
+[2025-02-18 15:16:32,648] INFO autoreload 27769 8675639808 /Users/br/Desktop/IT/Projects/Lesta/TestTask/words/models.py changed, reloading.
+[2025-02-18 15:16:33,057] INFO autoreload 27795 8639848960 Watching for file changes with StatReloader
+[2025-02-18 15:17:08,812] INFO autoreload 27795 8639848960 /Users/br/Desktop/IT/Projects/Lesta/TestTask/TestTask/urls.py changed, reloading.
+[2025-02-18 15:17:09,336] INFO autoreload 27816 8672133632 Watching for file changes with StatReloader
+[2025-02-18 15:17:24,602] INFO autoreload 27816 8672133632 /Users/br/Desktop/IT/Projects/Lesta/TestTask/TestTask/urls.py changed, reloading.
+[2025-02-18 15:17:25,090] INFO autoreload 27825 8682451456 Watching for file changes with StatReloader
+[2025-02-18 15:18:19,905] INFO autoreload 27825 8682451456 /Users/br/Desktop/IT/Projects/Lesta/TestTask/TestTask/settings.py changed, reloading.
+[2025-02-18 15:18:20,325] INFO autoreload 27878 8679637504 Watching for file changes with StatReloader
+[2025-02-18 15:18:24,822] INFO basehttp 27878 13106143232 "GET /admin/words/file/add/ HTTP/1.1" 200 14458
+[2025-02-18 15:18:24,870] INFO basehttp 27878 13106143232 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-02-18 15:18:42,368] INFO basehttp 27878 13106143232 "POST /admin/words/file/add/ HTTP/1.1" 200 14651
+[2025-02-18 15:18:42,423] INFO basehttp 27878 13106143232 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-02-18 15:19:18,008] INFO basehttp 27878 13106143232 "POST /admin/words/file/add/ HTTP/1.1" 200 14651
+[2025-02-18 15:19:18,067] INFO basehttp 27878 13106143232 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-02-18 15:19:49,018] INFO autoreload 27878 8679637504 /Users/br/Desktop/IT/Projects/Lesta/TestTask/words/models.py changed, reloading.
+[2025-02-18 15:19:49,512] INFO autoreload 27941 8611590656 Watching for file changes with StatReloader
+[2025-02-18 15:19:56,318] INFO basehttp 27941 12968787968 "POST /admin/words/file/add/ HTTP/1.1" 302 0
+[2025-02-18 15:19:56,426] INFO basehttp 27941 12968787968 "GET /admin/words/file/ HTTP/1.1" 200 14006
+[2025-02-18 15:19:56,484] INFO basehttp 27941 12968787968 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-02-18 15:24:38,488] INFO autoreload 27941 8611590656 /Users/br/Desktop/IT/Projects/Lesta/TestTask/words/models.py changed, reloading.
+[2025-02-18 15:24:39,017] INFO autoreload 28091 8681607680 Watching for file changes with StatReloader
+[2025-02-18 15:24:59,156] INFO basehttp 28091 13109587968 "GET /admin/words/word/ HTTP/1.1" 200 11123
+[2025-02-18 15:24:59,171] INFO basehttp 28091 13193535488 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+[2025-02-18 15:24:59,172] INFO basehttp 28091 13126377472 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[2025-02-18 15:24:59,172] INFO basehttp 28091 13176745984 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+[2025-02-18 15:24:59,172] INFO basehttp 28091 13143166976 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+[2025-02-18 15:24:59,172] INFO basehttp 28091 13159956480 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+[2025-02-18 15:24:59,173] INFO basehttp 28091 13176745984 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+[2025-02-18 15:24:59,200] INFO basehttp 28091 13109587968 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-02-18 15:25:00,955] INFO basehttp 28091 13126377472 "GET /admin/words/word/add/ HTTP/1.1" 200 11096
+[2025-02-18 15:25:01,006] INFO basehttp 28091 13143166976 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-02-18 15:25:14,693] INFO autoreload 28091 8681607680 /Users/br/Desktop/IT/Projects/Lesta/TestTask/words/admin.py changed, reloading.
+[2025-02-18 15:25:15,200] INFO autoreload 28116 8667234816 Watching for file changes with StatReloader
+[2025-02-18 15:25:20,523] INFO basehttp 28116 13082337280 "GET /admin/words/word/add/ HTTP/1.1" 200 11203
+[2025-02-18 15:25:20,566] INFO basehttp 28116 13082337280 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-02-18 15:25:25,695] INFO basehttp 28116 13082337280 "POST /admin/words/word/add/ HTTP/1.1" 302 0
+[2025-02-18 15:25:25,782] INFO basehttp 28116 13082337280 "GET /admin/words/word/ HTTP/1.1" 200 13610
+[2025-02-18 15:25:25,835] INFO basehttp 28116 13082337280 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-02-18 15:25:38,910] INFO basehttp 28116 13082337280 "GET /admin/words/word/504/change/ HTTP/1.1" 200 11467
+[2025-02-18 15:25:38,957] INFO basehttp 28116 13082337280 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-02-18 15:25:59,586] INFO basehttp 28116 13082337280 "GET /admin/words/file/ HTTP/1.1" 200 13811
+[2025-02-18 15:25:59,638] INFO basehttp 28116 13082337280 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-02-18 15:26:01,356] INFO basehttp 28116 13082337280 "GET /admin/words/file/2/change/ HTTP/1.1" 200 14858
+[2025-02-18 15:26:01,403] INFO basehttp 28116 13082337280 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-02-18 15:26:06,846] INFO basehttp 28116 13082337280 "GET /admin/words/wordsinfiles/ HTTP/1.1" 200 11350
+[2025-02-18 15:26:06,897] INFO basehttp 28116 13082337280 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-02-18 15:26:08,934] INFO basehttp 28116 13082337280 "GET /admin/words/word/ HTTP/1.1" 200 13416
+[2025-02-18 15:26:08,981] INFO basehttp 28116 13082337280 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-02-18 15:26:10,326] INFO basehttp 28116 13082337280 "GET /admin/words/word/add/ HTTP/1.1" 200 11203
+[2025-02-18 15:26:10,371] INFO basehttp 28116 13082337280 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-02-18 15:26:11,790] INFO basehttp 28116 13082337280 "POST /admin/words/word/add/ HTTP/1.1" 302 0
+[2025-02-18 15:26:11,853] INFO basehttp 28116 13082337280 "GET /admin/words/word/ HTTP/1.1" 200 14141
+[2025-02-18 15:26:11,906] INFO basehttp 28116 13082337280 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-02-18 15:26:13,465] INFO basehttp 28116 13082337280 "GET /admin/words/wordsinfiles/ HTTP/1.1" 200 11350
+[2025-02-18 15:26:13,514] INFO basehttp 28116 13082337280 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-02-18 15:26:15,077] INFO basehttp 28116 13082337280 "GET /admin/words/wordsinfiles/add/ HTTP/1.1" 200 12251
+[2025-02-18 15:26:15,124] INFO basehttp 28116 13082337280 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-02-18 15:26:27,578] INFO autoreload 28116 8667234816 /Users/br/Desktop/IT/Projects/Lesta/TestTask/words/admin.py changed, reloading.
+[2025-02-18 15:26:28,102] INFO autoreload 28187 8669327872 Watching for file changes with StatReloader
+[2025-02-18 15:26:29,688] INFO basehttp 28187 13084741632 "GET /admin/words/wordsinfiles/add/ HTTP/1.1" 200 14690
+[2025-02-18 15:26:29,733] INFO basehttp 28187 13084741632 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-02-18 15:26:36,414] ERROR log 28187 13084741632 Internal Server Error: /admin/words/wordsinfiles/add/
+Traceback (most recent call last):
+  File "/Users/br/Desktop/IT/Projects/Lesta/TestTask/testenv/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/br/Desktop/IT/Projects/Lesta/TestTask/testenv/lib/python3.11/site-packages/psycopg/cursor.py", line 97, in execute
+    raise ex.with_traceback(None)
+psycopg.errors.NotNullViolation: null value in column "count" of relation "words_wordsinfiles" violates not-null constraint
+DETAIL:  Failing row contains (1, null, t, 2025-02-18 10:26:36.348869+00, 2025-02-18 10:26:36.348918+00, 2, 505).
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/br/Desktop/IT/Projects/Lesta/TestTask/testenv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/br/Desktop/IT/Projects/Lesta/TestTask/testenv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/br/Desktop/IT/Projects/Lesta/TestTask/testenv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 718, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/br/Desktop/IT/Projects/Lesta/TestTask/testenv/lib/python3.11/site-packages/django/utils/decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/br/Desktop/IT/Projects/Lesta/TestTask/testenv/lib/python3.11/site-packages/django/utils/decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/br/Desktop/IT/Projects/Lesta/TestTask/testenv/lib/python3.11/site-packages/django/views/decorators/cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/br/Desktop/IT/Projects/Lesta/TestTask/testenv/lib/python3.11/site-packages/django/contrib/admin/sites.py", line 241, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/br/Desktop/IT/Projects/Lesta/TestTask/testenv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 1961, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/br/Desktop/IT/Projects/Lesta/TestTask/testenv/lib/python3.11/site-packages/django/utils/decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/br/Desktop/IT/Projects/Lesta/TestTask/testenv/lib/python3.11/site-packages/django/utils/decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/br/Desktop/IT/Projects/Lesta/TestTask/testenv/lib/python3.11/site-packages/django/utils/decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/br/Desktop/IT/Projects/Lesta/TestTask/testenv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 1820, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/br/Desktop/IT/Projects/Lesta/TestTask/testenv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 1871, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "/Users/br/Desktop/IT/Projects/Lesta/TestTask/testenv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 1294, in save_model
+    obj.save()
+  File "/Users/br/Desktop/IT/Projects/Lesta/TestTask/testenv/lib/python3.11/site-packages/django/db/models/base.py", line 892, in save
+    self.save_base(
+  File "/Users/br/Desktop/IT/Projects/Lesta/TestTask/testenv/lib/python3.11/site-packages/django/db/models/base.py", line 998, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "/Users/br/Desktop/IT/Projects/Lesta/TestTask/testenv/lib/python3.11/site-packages/django/db/models/base.py", line 1161, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "/Users/br/Desktop/IT/Projects/Lesta/TestTask/testenv/lib/python3.11/site-packages/django/db/models/base.py", line 1202, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "/Users/br/Desktop/IT/Projects/Lesta/TestTask/testenv/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/br/Desktop/IT/Projects/Lesta/TestTask/testenv/lib/python3.11/site-packages/django/db/models/query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/br/Desktop/IT/Projects/Lesta/TestTask/testenv/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1836, in execute_sql
+    cursor.execute(sql, params)
+  File "/Users/br/Desktop/IT/Projects/Lesta/TestTask/testenv/lib/python3.11/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/br/Desktop/IT/Projects/Lesta/TestTask/testenv/lib/python3.11/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/br/Desktop/IT/Projects/Lesta/TestTask/testenv/lib/python3.11/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/br/Desktop/IT/Projects/Lesta/TestTask/testenv/lib/python3.11/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/Users/br/Desktop/IT/Projects/Lesta/TestTask/testenv/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/br/Desktop/IT/Projects/Lesta/TestTask/testenv/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/br/Desktop/IT/Projects/Lesta/TestTask/testenv/lib/python3.11/site-packages/psycopg/cursor.py", line 97, in execute
+    raise ex.with_traceback(None)
+django.db.utils.IntegrityError: null value in column "count" of relation "words_wordsinfiles" violates not-null constraint
+DETAIL:  Failing row contains (1, null, t, 2025-02-18 10:26:36.348869+00, 2025-02-18 10:26:36.348918+00, 2, 505).
+[2025-02-18 15:26:36,419] ERROR basehttp 28187 13084741632 "POST /admin/words/wordsinfiles/add/ HTTP/1.1" 500 205276
+[2025-02-18 15:26:50,717] INFO autoreload 28187 8669327872 /Users/br/Desktop/IT/Projects/Lesta/TestTask/words/admin.py changed, reloading.
+[2025-02-18 15:26:51,260] INFO autoreload 28203 8677106176 Watching for file changes with StatReloader
+[2025-02-18 15:26:52,720] INFO basehttp 28203 13100195840 "GET /admin/words/wordsinfiles/add/ HTTP/1.1" 200 14780
+[2025-02-18 15:26:52,769] INFO basehttp 28203 13100195840 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-02-18 15:26:57,868] ERROR log 28203 13100195840 Internal Server Error: /admin/words/wordsinfiles/add/
+Traceback (most recent call last):
+  File "/Users/br/Desktop/IT/Projects/Lesta/TestTask/testenv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/br/Desktop/IT/Projects/Lesta/TestTask/testenv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/br/Desktop/IT/Projects/Lesta/TestTask/testenv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 718, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/br/Desktop/IT/Projects/Lesta/TestTask/testenv/lib/python3.11/site-packages/django/utils/decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/br/Desktop/IT/Projects/Lesta/TestTask/testenv/lib/python3.11/site-packages/django/utils/decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/br/Desktop/IT/Projects/Lesta/TestTask/testenv/lib/python3.11/site-packages/django/views/decorators/cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/br/Desktop/IT/Projects/Lesta/TestTask/testenv/lib/python3.11/site-packages/django/contrib/admin/sites.py", line 241, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/br/Desktop/IT/Projects/Lesta/TestTask/testenv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 1961, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/br/Desktop/IT/Projects/Lesta/TestTask/testenv/lib/python3.11/site-packages/django/utils/decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/br/Desktop/IT/Projects/Lesta/TestTask/testenv/lib/python3.11/site-packages/django/utils/decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/br/Desktop/IT/Projects/Lesta/TestTask/testenv/lib/python3.11/site-packages/django/utils/decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/br/Desktop/IT/Projects/Lesta/TestTask/testenv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 1820, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/br/Desktop/IT/Projects/Lesta/TestTask/testenv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 1877, in _changeform_view
+    self.log_addition(request, new_object, change_message)
+  File "/Users/br/Desktop/IT/Projects/Lesta/TestTask/testenv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 952, in log_addition
+    return LogEntry.objects.log_actions(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/br/Desktop/IT/Projects/Lesta/TestTask/testenv/lib/python3.11/site-packages/django/contrib/admin/models.py", line 82, in log_actions
+    log_entry_list = [
+                     ^
+  File "/Users/br/Desktop/IT/Projects/Lesta/TestTask/testenv/lib/python3.11/site-packages/django/contrib/admin/models.py", line 89, in <listcomp>
+    object_repr=str(obj)[:200],
+                ^^^^^^^^
+  File "/Users/br/Desktop/IT/Projects/Lesta/TestTask/words/models.py", line 66, in __str__
+    return f"{self.file} - {self.word}"
+              ^^^^^^^^^
+AttributeError: 'WordsInFiles' object has no attribute 'file'
+[2025-02-18 15:26:57,871] ERROR basehttp 28203 13100195840 "POST /admin/words/wordsinfiles/add/ HTTP/1.1" 500 133320
+[2025-02-18 15:27:56,441] INFO autoreload 28203 8677106176 /Users/br/Desktop/IT/Projects/Lesta/TestTask/words/models.py changed, reloading.
+[2025-02-18 15:27:56,989] INFO autoreload 28229 8649908736 Watching for file changes with StatReloader
+[2025-02-18 15:27:58,516] ERROR log 28229 13045145600 Internal Server Error: /admin/words/wordsinfiles/add/
+Traceback (most recent call last):
+  File "/Users/br/Desktop/IT/Projects/Lesta/TestTask/testenv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/br/Desktop/IT/Projects/Lesta/TestTask/testenv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/br/Desktop/IT/Projects/Lesta/TestTask/testenv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 718, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/br/Desktop/IT/Projects/Lesta/TestTask/testenv/lib/python3.11/site-packages/django/utils/decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/br/Desktop/IT/Projects/Lesta/TestTask/testenv/lib/python3.11/site-packages/django/utils/decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/br/Desktop/IT/Projects/Lesta/TestTask/testenv/lib/python3.11/site-packages/django/views/decorators/cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/br/Desktop/IT/Projects/Lesta/TestTask/testenv/lib/python3.11/site-packages/django/contrib/admin/sites.py", line 241, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/br/Desktop/IT/Projects/Lesta/TestTask/testenv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 1961, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/br/Desktop/IT/Projects/Lesta/TestTask/testenv/lib/python3.11/site-packages/django/utils/decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/br/Desktop/IT/Projects/Lesta/TestTask/testenv/lib/python3.11/site-packages/django/utils/decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/br/Desktop/IT/Projects/Lesta/TestTask/testenv/lib/python3.11/site-packages/django/utils/decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/br/Desktop/IT/Projects/Lesta/TestTask/testenv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 1820, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/br/Desktop/IT/Projects/Lesta/TestTask/testenv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 1877, in _changeform_view
+    self.log_addition(request, new_object, change_message)
+  File "/Users/br/Desktop/IT/Projects/Lesta/TestTask/testenv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 952, in log_addition
+    return LogEntry.objects.log_actions(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/br/Desktop/IT/Projects/Lesta/TestTask/testenv/lib/python3.11/site-packages/django/contrib/admin/models.py", line 82, in log_actions
+    log_entry_list = [
+                     ^
+  File "/Users/br/Desktop/IT/Projects/Lesta/TestTask/testenv/lib/python3.11/site-packages/django/contrib/admin/models.py", line 89, in <listcomp>
+    object_repr=str(obj)[:200],
+                ^^^^^^^^
+  File "/Users/br/Desktop/IT/Projects/Lesta/TestTask/words/models.py", line 66, in __str__
+    return f"{self.id} - {self.word}"
+                          ^^^^^^^^^
+AttributeError: 'WordsInFiles' object has no attribute 'word'
+[2025-02-18 15:27:58,518] ERROR basehttp 28229 13045145600 "POST /admin/words/wordsinfiles/add/ HTTP/1.1" 500 133340
+[2025-02-18 15:28:38,639] INFO autoreload 28229 8649908736 /Users/br/Desktop/IT/Projects/Lesta/TestTask/words/models.py changed, reloading.
+[2025-02-18 15:28:39,181] INFO autoreload 28258 8673419776 Watching for file changes with StatReloader
+[2025-02-18 15:28:41,168] INFO basehttp 28258 13095374848 "POST /admin/words/wordsinfiles/add/ HTTP/1.1" 302 0
+[2025-02-18 15:28:41,285] INFO basehttp 28258 13095374848 "GET /admin/words/wordsinfiles/ HTTP/1.1" 200 14335
+[2025-02-18 15:28:41,332] INFO basehttp 28258 13095374848 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-02-18 15:30:13,707] INFO autoreload 28258 8673419776 /Users/br/Desktop/IT/Projects/Lesta/TestTask/words/models.py changed, reloading.
+[2025-02-18 15:30:14,157] INFO autoreload 28303 8605848064 Watching for file changes with StatReloader
+[2025-02-18 15:30:17,476] ERROR log 28303 12960043008 Internal Server Error: /admin/words/wordsinfiles/
+Traceback (most recent call last):
+  File "/Users/br/Desktop/IT/Projects/Lesta/TestTask/testenv/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/br/Desktop/IT/Projects/Lesta/TestTask/testenv/lib/python3.11/site-packages/psycopg/cursor.py", line 97, in execute
+    raise ex.with_traceback(None)
+psycopg.errors.UndefinedColumn: column words_wordsinfiles.file_id does not exist
+LINE 1: ... "words_wordsinfiles" INNER JOIN "words_file" ON ("words_wor...
+                                                             ^
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/br/Desktop/IT/Projects/Lesta/TestTask/testenv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/br/Desktop/IT/Projects/Lesta/TestTask/testenv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/br/Desktop/IT/Projects/Lesta/TestTask/testenv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 718, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/br/Desktop/IT/Projects/Lesta/TestTask/testenv/lib/python3.11/site-packages/django/utils/decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/br/Desktop/IT/Projects/Lesta/TestTask/testenv/lib/python3.11/site-packages/django/utils/decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/br/Desktop/IT/Projects/Lesta/TestTask/testenv/lib/python3.11/site-packages/django/views/decorators/cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/br/Desktop/IT/Projects/Lesta/TestTask/testenv/lib/python3.11/site-packages/django/contrib/admin/sites.py", line 241, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/br/Desktop/IT/Projects/Lesta/TestTask/testenv/lib/python3.11/site-packages/django/utils/decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/br/Desktop/IT/Projects/Lesta/TestTask/testenv/lib/python3.11/site-packages/django/utils/decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/br/Desktop/IT/Projects/Lesta/TestTask/testenv/lib/python3.11/site-packages/django/utils/decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/br/Desktop/IT/Projects/Lesta/TestTask/testenv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 2121, in changelist_view
+    media = self.media + formset.media
+                         ^^^^^^^^^^^^^
+  File "/Users/br/Desktop/IT/Projects/Lesta/TestTask/testenv/lib/python3.11/site-packages/django/forms/formsets.py", line 521, in media
+    if self.forms:
+       ^^^^^^^^^^
+  File "/Users/br/Desktop/IT/Projects/Lesta/TestTask/testenv/lib/python3.11/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/Users/br/Desktop/IT/Projects/Lesta/TestTask/testenv/lib/python3.11/site-packages/django/forms/formsets.py", line 207, in forms
+    for i in range(self.total_form_count())
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/br/Desktop/IT/Projects/Lesta/TestTask/testenv/lib/python3.11/site-packages/django/forms/formsets.py", line 182, in total_form_count
+    initial_forms = self.initial_form_count()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/br/Desktop/IT/Projects/Lesta/TestTask/testenv/lib/python3.11/site-packages/django/forms/models.py", line 697, in initial_form_count
+    return len(self.get_queryset())
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/br/Desktop/IT/Projects/Lesta/TestTask/testenv/lib/python3.11/site-packages/django/db/models/query.py", line 382, in __len__
+    self._fetch_all()
+  File "/Users/br/Desktop/IT/Projects/Lesta/TestTask/testenv/lib/python3.11/site-packages/django/db/models/query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/br/Desktop/IT/Projects/Lesta/TestTask/testenv/lib/python3.11/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/br/Desktop/IT/Projects/Lesta/TestTask/testenv/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1574, in execute_sql
+    cursor.execute(sql, params)
+  File "/Users/br/Desktop/IT/Projects/Lesta/TestTask/testenv/lib/python3.11/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/br/Desktop/IT/Projects/Lesta/TestTask/testenv/lib/python3.11/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/br/Desktop/IT/Projects/Lesta/TestTask/testenv/lib/python3.11/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/br/Desktop/IT/Projects/Lesta/TestTask/testenv/lib/python3.11/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/Users/br/Desktop/IT/Projects/Lesta/TestTask/testenv/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/br/Desktop/IT/Projects/Lesta/TestTask/testenv/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/br/Desktop/IT/Projects/Lesta/TestTask/testenv/lib/python3.11/site-packages/psycopg/cursor.py", line 97, in execute
+    raise ex.with_traceback(None)
+django.db.utils.ProgrammingError: column words_wordsinfiles.file_id does not exist
+LINE 1: ... "words_wordsinfiles" INNER JOIN "words_file" ON ("words_wor...
+                                                             ^
+[2025-02-18 15:30:17,479] ERROR basehttp 28303 12960043008 "GET /admin/words/wordsinfiles/ HTTP/1.1" 500 205243
+[2025-02-18 15:31:35,651] INFO basehttp 28303 12960043008 "GET /admin/words/wordsinfiles/ HTTP/1.1" 200 14054
+[2025-02-18 15:31:35,693] INFO basehttp 28303 12960043008 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-02-18 15:31:35,705] INFO basehttp 28303 12960043008 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[2025-02-18 15:31:39,369] INFO basehttp 28303 12960043008 "GET /admin/words/wordsinfiles/add/ HTTP/1.1" 200 14604
+[2025-02-18 15:31:39,384] INFO basehttp 28303 12976832512 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+[2025-02-18 15:31:39,418] INFO basehttp 28303 12960043008 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-02-18 15:34:25,776] INFO autoreload 28303 8605848064 /Users/br/Desktop/IT/Projects/Lesta/TestTask/words/models.py changed, reloading.
+[2025-02-18 15:34:26,236] INFO autoreload 28410 8672035328 Watching for file changes with StatReloader
+[2025-02-18 15:34:30,449] INFO basehttp 28410 13090410496 "POST /admin/words/wordsinfiles/add/ HTTP/1.1" 200 14785
+[2025-02-18 15:34:30,465] INFO basehttp 28410 13107200000 "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+[2025-02-18 15:34:30,466] INFO basehttp 28410 13123989504 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[2025-02-18 15:34:30,467] INFO basehttp 28410 13140779008 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[2025-02-18 15:34:30,467] INFO basehttp 28410 13157568512 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[2025-02-18 15:34:30,467] INFO basehttp 28410 13174358016 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[2025-02-18 15:34:30,468] INFO basehttp 28410 13107200000 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[2025-02-18 15:34:30,471] INFO basehttp 28410 13123989504 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[2025-02-18 15:34:30,472] INFO basehttp 28410 13107200000 "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+[2025-02-18 15:34:30,473] INFO basehttp 28410 13174358016 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+[2025-02-18 15:34:30,473] INFO basehttp 28410 13157568512 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[2025-02-18 15:34:30,473] INFO basehttp 28410 13140779008 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+[2025-02-18 15:34:30,473] INFO basehttp 28410 13123989504 "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+[2025-02-18 15:34:30,491] INFO basehttp 28410 13090410496 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-02-18 15:34:43,374] INFO basehttp 28410 13107200000 "POST /admin/words/wordsinfiles/add/ HTTP/1.1" 302 0
+[2025-02-18 15:34:43,471] INFO basehttp 28410 13174358016 "GET /admin/words/wordsinfiles/ HTTP/1.1" 200 14884
+[2025-02-18 15:34:43,484] INFO basehttp 28410 13157568512 "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[2025-02-18 15:34:43,487] INFO basehttp 28410 13123989504 "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+[2025-02-18 15:34:43,519] INFO basehttp 28410 13140779008 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-02-18 15:34:43,530] INFO basehttp 28410 13090410496 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+[2025-02-18 15:37:40,413] INFO basehttp 28410 13090410496 "GET /admin/words/file/ HTTP/1.1" 200 13811
+[2025-02-18 15:37:40,461] INFO basehttp 28410 13090410496 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-02-18 15:37:41,645] INFO basehttp 28410 13090410496 "GET /admin/words/file/2/change/ HTTP/1.1" 200 14858
+[2025-02-18 15:37:41,699] INFO basehttp 28410 13090410496 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-02-18 15:37:43,285] WARNING log 28410 13090410496 Not Found: /files/2025/02/18/requirements.txt
+[2025-02-18 15:37:43,286] WARNING basehttp 28410 13090410496 "GET /files/2025/02/18/requirements.txt HTTP/1.1" 404 2685
+[2025-02-18 15:37:51,835] INFO basehttp 28410 13090410496 "GET /admin/words/file/2/change/ HTTP/1.1" 200 14858
+[2025-02-18 15:37:51,879] INFO basehttp 28410 13090410496 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-02-18 15:38:07,342] INFO basehttp 28410 13090410496 "GET /admin/words/file/ HTTP/1.1" 200 13811
+[2025-02-18 15:38:07,847] INFO basehttp 28410 13090410496 "GET /admin/words/wordsinfiles/ HTTP/1.1" 200 14665
+[2025-02-18 15:38:11,260] INFO basehttp 28410 13090410496 "GET /admin/ HTTP/1.1" 200 9858
+[2025-02-18 15:38:11,272] INFO basehttp 28410 13090410496 "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+[2025-02-18 15:38:40,558] INFO autoreload 28410 8672035328 /Users/br/Desktop/IT/Projects/Lesta/TestTask/words/admin.py changed, reloading.
+[2025-02-18 15:38:41,132] INFO autoreload 28491 8610537984 Watching for file changes with StatReloader

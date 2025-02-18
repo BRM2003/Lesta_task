@@ -1,12 +1,19 @@
 from django.conf import settings
+from django.core.exceptions import ValidationError
+from django.core.validators import MinValueValidator
 from django.db import models
+
+
+def validate_file_extension(value):
+    if value.file.content_type != 'text/plain':
+        raise ValidationError(u'File format should be .txt')
 
 
 class File(models.Model):
     users = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.DO_NOTHING, name='user_file')
-    file_name = models.CharField(max_length=50, null=False, blank=False)
-    format = models.CharField(max_length=10, null=False, blank=False)
-    path = models.FileField(upload_to="%Y/%m/%d/")
+    file_name = models.CharField(max_length=50)
+    format = models.CharField(max_length=10)
+    path = models.FileField(upload_to="%Y/%m/%d/", validators=[validate_file_extension])
     active = models.BooleanField(default=True)
     cr_on = models.DateTimeField(auto_now_add=True, blank=True, null=True)
     up_on = models.DateTimeField(auto_now=True, blank=True, null=True)
@@ -25,7 +32,7 @@ class File(models.Model):
 
 
 class Word(models.Model):
-    word_value = models.CharField(max_length=50, unique=True, null=False, blank=False)
+    word_value = models.CharField(max_length=50, unique=True)
     active = models.BooleanField(default=True)
     cr_on = models.DateTimeField(auto_now_add=True, blank=True, null=True)
     up_on = models.DateTimeField(auto_now=True, blank=True, null=True)
@@ -42,16 +49,16 @@ class Word(models.Model):
 
 
 class WordsInFiles(models.Model):
-    file = models.ForeignKey(File, on_delete=models.CASCADE, name='file_connection', blank=True, null=True)
-    word = models.ForeignKey(Word, on_delete=models.CASCADE, name='word_connection', blank=True, null=True)
-    count = models.PositiveIntegerField(null=False, blank=False)
+    file = models.ForeignKey(File, on_delete=models.CASCADE)
+    word = models.ForeignKey(Word, on_delete=models.CASCADE)
+    count = models.PositiveIntegerField(validators=[MinValueValidator(1, message='Must be at least 1 word in file')],)
     active = models.BooleanField(default=True)
     cr_on = models.DateTimeField(auto_now_add=True, blank=True, null=True)
     up_on = models.DateTimeField(auto_now=True, blank=True, null=True)
 
     class Meta:
         indexes = [
-            models.Index(fields=["file_connection", "word_connection"], name="connect_indx_by_word_and_file"),
+            models.Index(fields=["file", "word"], name="connect_indx_by_word_and_file"),
         ]
         verbose_name_plural = 'Words in Files'
         verbose_name = 'Word in File'
