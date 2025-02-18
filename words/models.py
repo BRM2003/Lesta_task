@@ -10,7 +10,7 @@ def validate_file_extension(value):
 
 
 class File(models.Model):
-    users = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.DO_NOTHING, name='user_file')
+    users = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.DO_NOTHING, name='user_file', null=True, blank=True)
     file_name = models.CharField(max_length=50)
     format = models.CharField(max_length=10)
     path = models.FileField(upload_to="%Y/%m/%d/", validators=[validate_file_extension])

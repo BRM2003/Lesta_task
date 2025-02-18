@@ -512,3 +512,420 @@ LINE 1: ... "words_wordsinfiles" INNER JOIN "words_file" ON ("words_wor...
 [2025-02-18 15:38:11,272] INFO basehttp 28410 13090410496 "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
 [2025-02-18 15:38:40,558] INFO autoreload 28410 8672035328 /Users/br/Desktop/IT/Projects/Lesta/TestTask/words/admin.py changed, reloading.
 [2025-02-18 15:38:41,132] INFO autoreload 28491 8610537984 Watching for file changes with StatReloader
+[2025-02-18 15:44:45,358] INFO autoreload 28491 8610537984 /Users/br/Desktop/IT/Projects/Lesta/TestTask/words/models.py changed, reloading.
+[2025-02-18 15:44:45,923] INFO autoreload 28771 8678072832 Watching for file changes with StatReloader
+[2025-02-18 15:45:08,224] INFO autoreload 28771 8678072832 /Users/br/Desktop/IT/Projects/Lesta/TestTask/words/urls.py changed, reloading.
+[2025-02-18 15:45:08,655] INFO autoreload 28792 8669729280 Watching for file changes with StatReloader
+[2025-02-18 15:51:51,936] INFO autoreload 28792 8669729280 /Users/br/Desktop/IT/Projects/Lesta/TestTask/words/views.py changed, reloading.
+[2025-02-18 15:51:52,608] INFO autoreload 28928 8604520960 Watching for file changes with StatReloader
+[2025-02-18 15:56:15,229] INFO autoreload 28928 8604520960 /Users/br/Desktop/IT/Projects/Lesta/TestTask/words/views.py changed, reloading.
+[2025-02-18 15:56:15,794] INFO autoreload 29021 8646119936 Watching for file changes with StatReloader
+[2025-02-18 15:57:15,013] INFO autoreload 29021 8646119936 /Users/br/Desktop/IT/Projects/Lesta/TestTask/TestTask/settings.py changed, reloading.
+[2025-02-18 15:57:15,546] INFO autoreload 29065 8647692800 Watching for file changes with StatReloader
+[2025-02-18 15:58:15,347] INFO autoreload 29065 8647692800 /Users/br/Desktop/IT/Projects/Lesta/TestTask/words/views.py changed, reloading.
+[2025-02-18 15:58:15,848] INFO autoreload 29087 8643064320 Watching for file changes with StatReloader
+[2025-02-18 15:58:21,175] WARNING log 29087 13031936000 Not Found: /
+[2025-02-18 15:58:21,176] WARNING basehttp 29087 13031936000 "GET / HTTP/1.1" 404 2328
+[2025-02-18 15:58:24,753] WARNING log 29087 13031936000 Not Found: /
+[2025-02-18 15:58:24,753] WARNING basehttp 29087 13031936000 "GET / HTTP/1.1" 404 2328
+[2025-02-18 15:58:42,423] INFO autoreload 29087 8643064320 /Users/br/Desktop/IT/Projects/Lesta/TestTask/words/urls.py changed, reloading.
+[2025-02-18 15:58:42,963] INFO autoreload 29107 8603148800 Watching for file changes with StatReloader
+[2025-02-18 15:58:43,574] INFO basehttp 29107 12952702976 "GET / HTTP/1.1" 200 329
+[2025-02-18 15:58:43,586] INFO basehttp 29107 12952702976 "GET /static/file_upload_style.css HTTP/1.1" 200 25
+[2025-02-18 16:02:11,353] INFO basehttp 29107 12952702976 "GET / HTTP/1.1" 200 483
+[2025-02-18 16:02:11,360] INFO basehttp 29107 12952702976 "GET /static/file_upload_style.css HTTP/1.1" 200 219
+[2025-02-18 16:02:24,899] INFO basehttp 29107 12952702976 "GET / HTTP/1.1" 200 479
+[2025-02-18 16:02:24,906] INFO basehttp 29107 12952702976 "GET /static/file_upload_style.css HTTP/1.1" 304 0
+[2025-02-18 16:02:27,274] INFO basehttp 29107 12952702976 "GET / HTTP/1.1" 200 479
+[2025-02-18 16:08:22,518] INFO basehttp 29107 12952702976 "GET / HTTP/1.1" 200 1599
+[2025-02-18 16:08:22,525] INFO basehttp 29107 12952702976 "GET /static/file_upload_style.css HTTP/1.1" 304 0
+[2025-02-18 16:09:12,054] INFO basehttp 29107 12952702976 "GET / HTTP/1.1" 200 1601
+[2025-02-18 16:09:12,059] INFO basehttp 29107 12952702976 "GET /static/file_upload_style.css HTTP/1.1" 304 0
+[2025-02-18 16:12:04,358] INFO basehttp 29107 12952702976 "GET / HTTP/1.1" 200 1601
+[2025-02-18 16:12:04,362] INFO basehttp 29107 12952702976 "GET /static/file_upload_style.css HTTP/1.1" 200 564
+[2025-02-18 16:13:57,135] INFO basehttp 29107 12952702976 "GET / HTTP/1.1" 200 1601
+[2025-02-18 16:13:57,142] INFO basehttp 29107 12952702976 "GET /static/file_upload_style.css HTTP/1.1" 200 801
+[2025-02-18 16:14:06,396] INFO basehttp 29107 12952702976 "GET / HTTP/1.1" 200 1601
+[2025-02-18 16:14:06,403] INFO basehttp 29107 12952702976 "GET /static/file_upload_style.css HTTP/1.1" 200 801
+[2025-02-18 16:14:07,281] INFO basehttp 29107 12952702976 "GET / HTTP/1.1" 200 1601
+[2025-02-18 16:14:07,287] INFO basehttp 29107 12952702976 "GET /static/file_upload_style.css HTTP/1.1" 304 0
+[2025-02-18 16:14:18,527] INFO basehttp 29107 12952702976 "GET / HTTP/1.1" 200 1601
+[2025-02-18 16:14:18,533] INFO basehttp 29107 12952702976 "GET /static/file_upload_style.css HTTP/1.1" 200 803
+[2025-02-18 16:14:56,578] INFO basehttp 29107 12952702976 "GET / HTTP/1.1" 200 1601
+[2025-02-18 16:14:56,584] INFO basehttp 29107 12952702976 "GET /static/file_upload_style.css HTTP/1.1" 200 846
+[2025-02-18 16:16:11,253] INFO basehttp 29107 12952702976 "GET / HTTP/1.1" 200 1601
+[2025-02-18 16:16:11,259] INFO basehttp 29107 12952702976 "GET /static/file_upload_style.css HTTP/1.1" 200 934
+[2025-02-18 16:16:23,523] INFO basehttp 29107 12952702976 "GET / HTTP/1.1" 200 1601
+[2025-02-18 16:16:23,528] INFO basehttp 29107 12952702976 "GET /static/file_upload_style.css HTTP/1.1" 200 955
+[2025-02-18 16:20:15,893] INFO basehttp 29107 12952702976 "GET / HTTP/1.1" 200 1601
+[2025-02-18 16:20:15,900] INFO basehttp 29107 12952702976 "GET /static/file_upload_style.css HTTP/1.1" 200 1347
+[2025-02-18 16:20:25,596] INFO basehttp 29107 12952702976 "GET / HTTP/1.1" 200 1601
+[2025-02-18 16:20:25,602] INFO basehttp 29107 12952702976 "GET /static/file_upload_style.css HTTP/1.1" 200 1365
+[2025-02-18 16:20:37,010] INFO basehttp 29107 12952702976 "GET / HTTP/1.1" 200 1601
+[2025-02-18 16:20:37,024] INFO basehttp 29107 12952702976 "GET /static/file_upload_style.css HTTP/1.1" 200 1365
+[2025-02-18 16:24:48,839] INFO basehttp 29107 12952702976 "GET / HTTP/1.1" 200 1601
+[2025-02-18 16:24:48,846] INFO basehttp 29107 12952702976 "GET /static/file_upload_style.css HTTP/1.1" 200 1857
+[2025-02-18 16:26:42,819] INFO basehttp 29107 12952702976 "GET / HTTP/1.1" 200 1609
+[2025-02-18 16:26:42,827] INFO basehttp 29107 12952702976 "GET /static/file_upload_style.css HTTP/1.1" 200 1876
+[2025-02-18 16:26:43,633] INFO basehttp 29107 12952702976 "GET / HTTP/1.1" 200 1609
+[2025-02-18 16:26:43,639] INFO basehttp 29107 12952702976 "GET /static/file_upload_style.css HTTP/1.1" 304 0
+[2025-02-18 16:30:19,139] INFO basehttp 29107 12952702976 "GET / HTTP/1.1" 200 1609
+[2025-02-18 16:30:19,146] INFO basehttp 29107 12952702976 "GET /static/file_upload_style.css HTTP/1.1" 200 2113
+[2025-02-18 16:30:20,337] INFO basehttp 29107 12952702976 "GET / HTTP/1.1" 200 1609
+[2025-02-18 16:30:20,343] INFO basehttp 29107 12952702976 "GET /static/file_upload_style.css HTTP/1.1" 304 0
+[2025-02-18 16:33:12,379] INFO basehttp 29107 12952702976 "GET / HTTP/1.1" 200 1604
+[2025-02-18 16:33:12,387] INFO basehttp 29107 12952702976 "GET /static/file_upload_style.css HTTP/1.1" 200 2155
+[2025-02-18 16:33:30,524] INFO basehttp 29107 12952702976 "GET / HTTP/1.1" 200 1604
+[2025-02-18 16:33:30,531] INFO basehttp 29107 12952702976 "GET /static/file_upload_style.css HTTP/1.1" 200 2179
+[2025-02-18 16:33:50,678] INFO basehttp 29107 12952702976 "GET / HTTP/1.1" 200 1604
+[2025-02-18 16:33:50,683] INFO basehttp 29107 12952702976 "GET /static/file_upload_style.css HTTP/1.1" 304 0
+[2025-02-18 16:34:43,996] INFO basehttp 29107 12952702976 "GET / HTTP/1.1" 200 3005
+[2025-02-18 16:34:44,003] INFO basehttp 29107 12952702976 "GET /static/file_upload_style.css HTTP/1.1" 200 2231
+[2025-02-18 16:34:50,674] INFO basehttp 29107 12952702976 "GET / HTTP/1.1" 200 4861
+[2025-02-18 16:34:50,680] INFO basehttp 29107 12952702976 "GET /static/file_upload_style.css HTTP/1.1" 304 0
+[2025-02-18 16:39:28,614] INFO basehttp 29107 12952702976 "GET / HTTP/1.1" 200 4853
+[2025-02-18 16:39:28,621] INFO basehttp 29107 12952702976 "GET /static/file_upload_style.css HTTP/1.1" 200 2278
+[2025-02-18 16:40:54,386] INFO basehttp 29107 12952702976 "GET / HTTP/1.1" 200 4853
+[2025-02-18 16:40:54,391] INFO basehttp 29107 12952702976 "GET /static/file_upload_style.css HTTP/1.1" 200 2264
+[2025-02-18 16:41:12,688] INFO basehttp 29107 12952702976 "GET / HTTP/1.1" 200 4853
+[2025-02-18 16:41:12,695] INFO basehttp 29107 12952702976 "GET /static/file_upload_style.css HTTP/1.1" 200 2315
+[2025-02-18 16:42:23,558] INFO basehttp 29107 12952702976 "GET / HTTP/1.1" 200 4853
+[2025-02-18 16:42:23,565] INFO basehttp 29107 12952702976 "GET /static/file_upload_style.css HTTP/1.1" 200 2392
+[2025-02-18 16:43:10,087] INFO basehttp 29107 12952702976 "GET / HTTP/1.1" 200 4853
+[2025-02-18 16:43:10,095] INFO basehttp 29107 12952702976 "GET /static/file_upload_style.css HTTP/1.1" 200 2344
+[2025-02-18 16:43:10,849] INFO basehttp 29107 12952702976 "GET / HTTP/1.1" 200 4853
+[2025-02-18 16:43:10,854] INFO basehttp 29107 12952702976 "GET /static/file_upload_style.css HTTP/1.1" 304 0
+[2025-02-18 16:43:26,252] INFO basehttp 29107 12952702976 "GET / HTTP/1.1" 200 4853
+[2025-02-18 16:43:26,259] INFO basehttp 29107 12952702976 "GET /static/file_upload_style.css HTTP/1.1" 200 2211
+[2025-02-18 16:44:44,554] INFO basehttp 29107 12952702976 "GET / HTTP/1.1" 200 4853
+[2025-02-18 16:44:44,564] INFO basehttp 29107 12952702976 "GET /static/file_upload_style.css HTTP/1.1" 200 2208
+[2025-02-18 16:44:45,446] INFO basehttp 29107 12952702976 "GET / HTTP/1.1" 200 4853
+[2025-02-18 16:44:45,454] INFO basehttp 29107 12952702976 "GET /static/file_upload_style.css HTTP/1.1" 304 0
+[2025-02-18 16:44:52,010] INFO basehttp 29107 12952702976 "GET / HTTP/1.1" 200 4853
+[2025-02-18 16:44:52,017] INFO basehttp 29107 12952702976 "GET /static/file_upload_style.css HTTP/1.1" 304 0
+[2025-02-18 16:45:20,467] INFO basehttp 29107 12952702976 "GET / HTTP/1.1" 200 1605
+[2025-02-18 16:45:20,473] INFO basehttp 29107 12952702976 "GET /static/file_upload_style.css HTTP/1.1" 304 0
+[2025-02-18 16:45:21,490] INFO basehttp 29107 12952702976 "GET / HTTP/1.1" 200 1605
+[2025-02-18 16:46:02,040] INFO basehttp 29107 12952702976 "GET / HTTP/1.1" 200 1605
+[2025-02-18 16:46:02,044] INFO basehttp 29107 12952702976 "GET /static/file_upload_style.css HTTP/1.1" 200 2208
+[2025-02-18 16:46:02,621] INFO basehttp 29107 12952702976 "GET / HTTP/1.1" 200 1605
+[2025-02-18 16:46:02,626] INFO basehttp 29107 12952702976 "GET /static/file_upload_style.css HTTP/1.1" 304 0
+[2025-02-18 16:46:35,207] INFO basehttp 29107 12952702976 "GET / HTTP/1.1" 200 1605
+[2025-02-18 16:46:35,214] INFO basehttp 29107 12952702976 "GET /static/file_upload_style.css HTTP/1.1" 200 2112
+[2025-02-18 16:48:44,835] INFO basehttp 29107 12952702976 "GET / HTTP/1.1" 200 1605
+[2025-02-18 16:48:44,843] INFO basehttp 29107 12952702976 "GET /static/file_upload_style.css HTTP/1.1" 200 2023
+[2025-02-18 16:51:42,646] INFO basehttp 29107 12952702976 "GET / HTTP/1.1" 200 1605
+[2025-02-18 16:51:42,653] INFO basehttp 29107 12952702976 "GET /static/file_upload_style.css HTTP/1.1" 200 2201
+[2025-02-18 16:51:55,853] INFO basehttp 29107 12952702976 "GET / HTTP/1.1" 200 1605
+[2025-02-18 16:51:55,859] INFO basehttp 29107 12952702976 "GET /static/file_upload_style.css HTTP/1.1" 200 2201
+[2025-02-18 16:54:36,436] INFO basehttp 29107 12952702976 "GET / HTTP/1.1" 200 1678
+[2025-02-18 16:54:36,441] INFO basehttp 29107 12952702976 "GET /static/styles/file_upload_style.css HTTP/1.1" 200 2201
+[2025-02-18 16:54:36,444] INFO basehttp 29107 12969492480 "GET /static/scripts/upload_file_script.js HTTP/1.1" 200 2444
+[2025-02-18 16:56:11,587] INFO basehttp 29107 12952702976 "GET / HTTP/1.1" 200 1678
+[2025-02-18 16:56:11,601] INFO basehttp 29107 12952702976 "GET /static/styles/file_upload_style.css HTTP/1.1" 200 2201
+[2025-02-18 16:56:11,603] INFO basehttp 29107 12969492480 "GET /static/scripts/upload_file_script.js HTTP/1.1" 200 2444
+[2025-02-18 16:56:12,296] WARNING log 29107 12969492480 Not Found: /favicon.ico
+[2025-02-18 16:56:12,297] WARNING basehttp 29107 12969492480 "GET /favicon.ico HTTP/1.1" 404 2612
+[2025-02-18 16:56:55,634] INFO basehttp 29107 12969492480 "GET / HTTP/1.1" 200 1678
+[2025-02-18 16:56:55,651] INFO basehttp 29107 12969492480 "GET /static/styles/file_upload_style.css HTTP/1.1" 304 0
+[2025-02-18 16:56:55,653] INFO basehttp 29107 12952702976 "GET /static/scripts/upload_file_script.js HTTP/1.1" 200 2430
+[2025-02-18 16:57:38,061] INFO basehttp 29107 12952702976 "GET / HTTP/1.1" 200 1748
+[2025-02-18 16:57:38,066] INFO basehttp 29107 12952702976 "GET /static/styles/file_upload_style.css HTTP/1.1" 304 0
+[2025-02-18 16:57:38,070] INFO basehttp 29107 12952702976 "GET /static/scripts/upload_file_script.js HTTP/1.1" 200 2430
+[2025-02-18 16:57:43,938] WARNING log 29107 12952702976 Forbidden (CSRF token missing.): /
+[2025-02-18 16:57:43,939] WARNING basehttp 29107 12952702976 "POST / HTTP/1.1" 403 2491
+[2025-02-18 16:57:49,768] WARNING log 29107 12952702976 Forbidden (CSRF token missing.): /
+[2025-02-18 16:57:49,769] WARNING basehttp 29107 12952702976 "POST / HTTP/1.1" 403 2491
+[2025-02-18 16:57:57,289] WARNING log 29107 12952702976 Forbidden (CSRF token missing.): /
+[2025-02-18 16:57:57,290] WARNING basehttp 29107 12952702976 "POST / HTTP/1.1" 403 2491
+[2025-02-18 16:58:04,357] INFO basehttp 29107 12952702976 "GET / HTTP/1.1" 200 1748
+[2025-02-18 16:58:04,366] INFO basehttp 29107 12952702976 "GET /static/scripts/upload_file_script.js HTTP/1.1" 304 0
+[2025-02-18 16:58:36,223] INFO basehttp 29107 12952702976 "GET / HTTP/1.1" 200 728
+[2025-02-18 16:58:36,229] INFO basehttp 29107 12952702976 "GET /static/styles/file_upload_style.css HTTP/1.1" 304 0
+[2025-02-18 16:58:36,231] INFO basehttp 29107 12969492480 "GET /static/scripts/upload_file_script.js HTTP/1.1" 304 0
+[2025-02-18 16:58:40,374] WARNING log 29107 12952702976 Forbidden (CSRF token missing.): /
+[2025-02-18 16:58:40,375] WARNING basehttp 29107 12952702976 "POST / HTTP/1.1" 403 2491
+[2025-02-18 16:59:03,118] INFO basehttp 29107 12986281984 "GET / HTTP/1.1" 200 728
+[2025-02-18 16:59:03,131] INFO basehttp 29107 13003071488 "GET /static/scripts/upload_file_script.js HTTP/1.1" 304 0
+[2025-02-18 16:59:03,131] INFO basehttp 29107 12986281984 "GET /static/styles/file_upload_style.css HTTP/1.1" 304 0
+[2025-02-18 16:59:11,400] WARNING log 29107 13003071488 Forbidden (CSRF token missing.): /
+[2025-02-18 16:59:11,401] WARNING basehttp 29107 13003071488 "POST / HTTP/1.1" 403 2491
+[2025-02-18 16:59:39,908] INFO basehttp 29107 13003071488 "GET / HTTP/1.1" 200 871
+[2025-02-18 16:59:39,921] INFO basehttp 29107 13003071488 "GET /static/scripts/upload_file_script.js HTTP/1.1" 304 0
+[2025-02-18 16:59:45,363] INFO basehttp 29107 13003071488 "POST / HTTP/1.1" 200 871
+[2025-02-18 17:00:09,613] INFO autoreload 29107 8603148800 /Users/br/Desktop/IT/Projects/Lesta/TestTask/words/views.py changed, reloading.
+[2025-02-18 17:00:10,176] INFO autoreload 29893 8606102016 Watching for file changes with StatReloader
+[2025-02-18 17:00:18,175] ERROR log 29893 12957736960 Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/br/Desktop/IT/Projects/Lesta/TestTask/testenv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/br/Desktop/IT/Projects/Lesta/TestTask/testenv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/br/Desktop/IT/Projects/Lesta/TestTask/words/views.py", line 6, in file_loader
+    print(request.data)
+          ^^^^^^^^^^^^
+AttributeError: 'WSGIRequest' object has no attribute 'data'
+[2025-02-18 17:00:18,176] ERROR basehttp 29893 12957736960 "POST / HTTP/1.1" 500 62306
+[2025-02-18 17:00:37,738] INFO autoreload 29893 8606102016 /Users/br/Desktop/IT/Projects/Lesta/TestTask/words/views.py changed, reloading.
+[2025-02-18 17:00:38,190] INFO autoreload 29905 8635961856 Watching for file changes with StatReloader
+[2025-02-18 17:00:44,808] INFO basehttp 29905 13017182208 "POST / HTTP/1.1" 200 871
+[2025-02-18 17:00:52,606] INFO autoreload 29905 8635961856 /Users/br/Desktop/IT/Projects/Lesta/TestTask/words/views.py changed, reloading.
+[2025-02-18 17:00:53,063] INFO autoreload 29921 8645386752 Watching for file changes with StatReloader
+[2025-02-18 17:00:57,025] INFO basehttp 29921 13037568000 "POST / HTTP/1.1" 200 871
+[2025-02-18 17:01:36,669] INFO basehttp 29921 13037568000 "GET / HTTP/1.1" 200 871
+[2025-02-18 17:01:36,682] INFO basehttp 29921 13037568000 "GET /static/styles/file_upload_style.css HTTP/1.1" 304 0
+[2025-02-18 17:01:36,688] INFO basehttp 29921 13054357504 "GET /static/scripts/upload_file_script.js HTTP/1.1" 200 2553
+[2025-02-18 17:01:50,495] INFO basehttp 29921 13054357504 "GET / HTTP/1.1" 200 871
+[2025-02-18 17:01:50,503] INFO basehttp 29921 13054357504 "GET /static/scripts/upload_file_script.js HTTP/1.1" 200 2556
+[2025-02-18 17:03:11,048] INFO basehttp 29921 13054357504 "GET / HTTP/1.1" 200 871
+[2025-02-18 17:03:11,059] INFO basehttp 29921 13037568000 "GET /static/scripts/upload_file_script.js HTTP/1.1" 304 0
+[2025-02-18 17:03:11,059] INFO basehttp 29921 13054357504 "GET /static/styles/file_upload_style.css HTTP/1.1" 304 0
+[2025-02-18 17:06:12,986] INFO basehttp 29921 13071147008 "GET / HTTP/1.1" 200 887
+[2025-02-18 17:06:12,994] INFO basehttp 29921 13071147008 "GET /static/styles/file_upload_style.css HTTP/1.1" 304 0
+[2025-02-18 17:06:12,995] INFO basehttp 29921 13087936512 "GET /static/scripts/upload_file_script.js HTTP/1.1" 200 3040
+[2025-02-18 17:06:17,917] INFO basehttp 29921 13071147008 "POST / HTTP/1.1" 200 887
+[2025-02-18 17:06:17,926] INFO basehttp 29921 13087936512 "GET /static/scripts/upload_file_script.js HTTP/1.1" 304 0
+[2025-02-18 17:07:27,034] INFO basehttp 29921 13071147008 "GET / HTTP/1.1" 200 887
+[2025-02-18 17:07:27,764] INFO basehttp 29921 13071147008 "GET / HTTP/1.1" 200 887
+[2025-02-18 17:07:27,774] INFO basehttp 29921 13071147008 "GET /static/scripts/upload_file_script.js HTTP/1.1" 200 571
+[2025-02-18 17:07:28,961] INFO basehttp 29921 13071147008 "GET /admin/ HTTP/1.1" 200 9862
+[2025-02-18 17:07:29,052] INFO basehttp 29921 13071147008 "GET /admin/words/wordsinfiles/ HTTP/1.1" 200 14659
+[2025-02-18 17:07:29,095] INFO basehttp 29921 13071147008 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-02-18 17:07:32,090] INFO basehttp 29921 13071147008 "GET /admin/ HTTP/1.1" 200 9862
+[2025-02-18 17:07:33,246] INFO basehttp 29921 13071147008 "GET / HTTP/1.1" 200 887
+[2025-02-18 17:07:33,251] INFO basehttp 29921 13071147008 "GET /static/scripts/upload_file_script.js HTTP/1.1" 304 0
+[2025-02-18 17:07:39,281] INFO basehttp 29921 13071147008 "POST / HTTP/1.1" 200 887
+[2025-02-18 17:07:39,291] INFO basehttp 29921 13071147008 "GET /static/styles/file_upload_style.css HTTP/1.1" 200 2465
+[2025-02-18 17:07:39,292] INFO basehttp 29921 13087936512 "GET /static/scripts/upload_file_script.js HTTP/1.1" 304 0
+[2025-02-18 17:09:27,244] INFO basehttp 29921 13071147008 "GET / HTTP/1.1" 200 809
+[2025-02-18 17:09:27,946] INFO basehttp 29921 13071147008 "GET / HTTP/1.1" 200 809
+[2025-02-18 17:09:27,953] INFO basehttp 29921 13071147008 "GET /static/styles/file_upload_style.css HTTP/1.1" 200 972
+[2025-02-18 17:09:27,956] INFO basehttp 29921 13087936512 "GET /static/scripts/upload_file_script.js HTTP/1.1" 304 0
+[2025-02-18 17:09:32,914] INFO basehttp 29921 13071147008 "POST / HTTP/1.1" 200 809
+[2025-02-18 17:11:35,131] INFO basehttp 29921 13071147008 "GET / HTTP/1.1" 200 880
+[2025-02-18 17:11:35,139] INFO basehttp 29921 13071147008 "GET /static/styles/file_upload_style.css HTTP/1.1" 304 0
+[2025-02-18 17:11:35,142] INFO basehttp 29921 13087936512 "GET /static/scripts/upload_file_script.js HTTP/1.1" 304 0
+[2025-02-18 17:13:07,492] INFO basehttp 29921 13071147008 "GET / HTTP/1.1" 200 943
+[2025-02-18 17:13:07,497] INFO basehttp 29921 13071147008 "GET /static/styles/file_upload_style.css HTTP/1.1" 200 1042
+[2025-02-18 17:13:07,501] INFO basehttp 29921 13087936512 "GET /static/scripts/upload_file_script.js HTTP/1.1" 304 0
+[2025-02-18 17:13:14,592] INFO basehttp 29921 13037568000 "GET / HTTP/1.1" 200 943
+[2025-02-18 17:13:14,609] INFO basehttp 29921 13037568000 "GET /static/styles/file_upload_style.css HTTP/1.1" 200 1042
+[2025-02-18 17:13:14,610] INFO basehttp 29921 13054357504 "GET /static/scripts/upload_file_script.js HTTP/1.1" 200 571
+[2025-02-18 17:24:51,574] INFO basehttp 29921 13071147008 "GET / HTTP/1.1" 200 1025
+[2025-02-18 17:24:51,586] INFO basehttp 29921 13037568000 "GET /static/scripts/upload_file_script.js HTTP/1.1" 304 0
+[2025-02-18 17:24:51,587] INFO basehttp 29921 13071147008 "GET /static/styles/file_upload_style.css HTTP/1.1" 200 1132
+[2025-02-18 17:24:59,955] INFO basehttp 29921 13071147008 "GET / HTTP/1.1" 200 1025
+[2025-02-18 17:24:59,964] INFO basehttp 29921 13071147008 "GET /static/styles/file_upload_style.css HTTP/1.1" 304 0
+[2025-02-18 17:25:51,459] INFO basehttp 29921 13071147008 "GET / HTTP/1.1" 200 1025
+[2025-02-18 17:25:51,472] INFO basehttp 29921 13071147008 "GET /static/styles/file_upload_style.css HTTP/1.1" 304 0
+[2025-02-18 17:27:22,084] INFO basehttp 29921 13037568000 "GET / HTTP/1.1" 200 1038
+[2025-02-18 17:27:22,098] INFO basehttp 29921 13054357504 "GET /static/scripts/upload_file_script.js HTTP/1.1" 304 0
+[2025-02-18 17:27:22,099] INFO basehttp 29921 13037568000 "GET /static/styles/file_upload_style.css HTTP/1.1" 200 1269
+[2025-02-18 17:27:22,818] INFO basehttp 29921 13037568000 "GET / HTTP/1.1" 200 1038
+[2025-02-18 17:29:24,813] INFO basehttp 29921 13071147008 "GET / HTTP/1.1" 200 1052
+[2025-02-18 17:29:24,826] INFO basehttp 29921 13071147008 "GET /static/styles/file_upload_style.css HTTP/1.1" 200 1269
+[2025-02-18 17:29:24,828] INFO basehttp 29921 13087936512 "GET /static/scripts/upload_file_script.js HTTP/1.1" 304 0
+[2025-02-18 17:29:25,699] INFO basehttp 29921 13071147008 "GET / HTTP/1.1" 200 1052
+[2025-02-18 17:30:19,553] INFO basehttp 29921 13071147008 "GET / HTTP/1.1" 200 1156
+[2025-02-18 17:30:19,560] INFO basehttp 29921 13071147008 "GET /static/styles/file_upload_style.css HTTP/1.1" 304 0
+[2025-02-18 17:30:33,155] INFO basehttp 29921 13071147008 "GET / HTTP/1.1" 200 1053
+[2025-02-18 17:30:53,755] INFO basehttp 29921 13071147008 "GET / HTTP/1.1" 200 997
+[2025-02-18 17:30:53,762] INFO basehttp 29921 13071147008 "GET /static/styles/file_upload_style.css HTTP/1.1" 200 1269
+[2025-02-18 17:31:01,812] INFO basehttp 29921 13071147008 "GET / HTTP/1.1" 200 997
+[2025-02-18 17:31:01,818] INFO basehttp 29921 13071147008 "GET /static/styles/file_upload_style.css HTTP/1.1" 200 1269
+[2025-02-18 17:36:58,705] INFO basehttp 29921 13037568000 "GET / HTTP/1.1" 200 1151
+[2025-02-18 17:36:58,725] INFO basehttp 29921 13054357504 "GET /static/scripts/upload_file_script.js HTTP/1.1" 304 0
+[2025-02-18 17:36:58,726] INFO basehttp 29921 13037568000 "GET /static/styles/file_upload_style.css HTTP/1.1" 200 1269
+[2025-02-18 17:37:13,800] INFO basehttp 29921 13037568000 "GET / HTTP/1.1" 200 1150
+[2025-02-18 17:37:16,469] INFO basehttp 29921 13037568000 "GET / HTTP/1.1" 200 1150
+[2025-02-18 17:37:17,216] INFO basehttp 29921 13037568000 "GET / HTTP/1.1" 200 1150
+[2025-02-18 17:37:37,787] INFO basehttp 29921 13037568000 "GET / HTTP/1.1" 200 1135
+[2025-02-18 17:37:37,804] INFO basehttp 29921 13037568000 "GET /static/styles/file_upload_style.css HTTP/1.1" 304 0
+[2025-02-18 17:38:05,654] INFO basehttp 29921 13037568000 "GET / HTTP/1.1" 200 890
+[2025-02-18 17:38:24,566] INFO autoreload 29921 8645386752 /Users/br/Desktop/IT/Projects/Lesta/TestTask/words/views.py changed, reloading.
+[2025-02-18 17:38:25,179] INFO autoreload 30329 8644575744 Watching for file changes with StatReloader
+[2025-02-18 17:38:26,723] INFO basehttp 30329 13034483712 "GET / HTTP/1.1" 200 1266
+[2025-02-18 17:38:26,732] INFO basehttp 30329 13034483712 "GET /static/styles/file_upload_style.css HTTP/1.1" 304 0
+[2025-02-18 17:38:57,497] INFO basehttp 30329 13034483712 "GET / HTTP/1.1" 200 1266
+[2025-02-18 17:38:58,415] INFO basehttp 30329 13034483712 "GET / HTTP/1.1" 200 1266
+[2025-02-18 17:39:09,324] INFO basehttp 30329 13034483712 "GET / HTTP/1.1" 200 1262
+[2025-02-18 17:39:25,421] INFO basehttp 30329 13034483712 "GET / HTTP/1.1" 200 1252
+[2025-02-18 17:39:25,445] INFO basehttp 30329 13034483712 "GET /static/styles/file_upload_style.css HTTP/1.1" 200 1303
+[2025-02-18 17:39:43,000] INFO basehttp 30329 13034483712 "GET / HTTP/1.1" 200 1258
+[2025-02-18 17:39:43,015] INFO basehttp 30329 13034483712 "GET /static/styles/file_upload_style.css HTTP/1.1" 304 0
+[2025-02-18 17:40:13,448] INFO basehttp 30329 13034483712 "GET / HTTP/1.1" 200 1260
+[2025-02-18 17:40:13,460] INFO basehttp 30329 13051273216 "GET /static/scripts/upload_file_script.js HTTP/1.1" 304 0
+[2025-02-18 17:40:13,460] INFO basehttp 30329 13034483712 "GET /static/styles/file_upload_style.css HTTP/1.1" 304 0
+[2025-02-18 17:42:53,425] INFO basehttp 30329 13068062720 "GET / HTTP/1.1" 200 1260
+[2025-02-18 17:42:53,434] INFO basehttp 30329 13068062720 "GET /static/styles/file_upload_style.css HTTP/1.1" 200 1307
+[2025-02-18 17:42:53,436] INFO basehttp 30329 13084852224 "GET /static/scripts/upload_file_script.js HTTP/1.1" 304 0
+[2025-02-18 17:43:09,963] INFO basehttp 30329 13034483712 "GET / HTTP/1.1" 200 1262
+[2025-02-18 17:43:09,977] INFO basehttp 30329 13034483712 "GET /static/styles/file_upload_style.css HTTP/1.1" 200 1307
+[2025-02-18 17:44:22,148] INFO basehttp 30329 13034483712 "GET / HTTP/1.1" 200 1260
+[2025-02-18 17:44:22,160] INFO basehttp 30329 13034483712 "GET /static/styles/file_upload_style.css HTTP/1.1" 200 1304
+[2025-02-18 17:44:22,162] INFO basehttp 30329 13051273216 "GET /static/scripts/upload_file_script.js HTTP/1.1" 304 0
+[2025-02-18 17:45:15,043] INFO basehttp 30329 13051273216 "GET / HTTP/1.1" 200 1319
+[2025-02-18 17:45:15,056] INFO basehttp 30329 13051273216 "GET /static/styles/file_upload_style.css HTTP/1.1" 304 0
+[2025-02-18 17:45:31,468] INFO basehttp 30329 13051273216 "GET / HTTP/1.1" 200 1317
+[2025-02-18 17:45:31,479] INFO basehttp 30329 13051273216 "GET /static/styles/file_upload_style.css HTTP/1.1" 304 0
+[2025-02-18 17:45:40,814] INFO basehttp 30329 13051273216 "GET / HTTP/1.1" 200 1318
+[2025-02-18 17:45:40,828] INFO basehttp 30329 13051273216 "GET /static/styles/file_upload_style.css HTTP/1.1" 304 0
+[2025-02-18 17:45:48,297] INFO basehttp 30329 13051273216 "GET / HTTP/1.1" 200 1319
+[2025-02-18 17:46:28,925] INFO basehttp 30329 13051273216 "GET / HTTP/1.1" 200 1304
+[2025-02-18 17:46:28,939] INFO basehttp 30329 13051273216 "GET /static/styles/file_upload_style.css HTTP/1.1" 304 0
+[2025-02-18 17:46:40,640] INFO basehttp 30329 13051273216 "GET / HTTP/1.1" 200 1305
+[2025-02-18 17:46:57,090] INFO basehttp 30329 13051273216 "GET / HTTP/1.1" 200 1305
+[2025-02-18 17:46:57,103] INFO basehttp 30329 13051273216 "GET /static/styles/file_upload_style.css HTTP/1.1" 304 0
+[2025-02-18 17:47:25,974] INFO basehttp 30329 13051273216 "GET / HTTP/1.1" 200 1305
+[2025-02-18 17:47:25,988] INFO basehttp 30329 13051273216 "GET /static/styles/file_upload_style.css HTTP/1.1" 304 0
+[2025-02-18 17:47:38,905] INFO basehttp 30329 13051273216 "GET / HTTP/1.1" 200 1305
+[2025-02-18 17:48:15,225] INFO basehttp 30329 13051273216 "GET / HTTP/1.1" 200 1305
+[2025-02-18 17:48:15,234] INFO basehttp 30329 13034483712 "GET /static/scripts/upload_file_script.js HTTP/1.1" 304 0
+[2025-02-18 17:48:15,234] INFO basehttp 30329 13051273216 "GET /static/styles/file_upload_style.css HTTP/1.1" 200 1304
+[2025-02-18 17:48:42,787] INFO basehttp 30329 13051273216 "GET / HTTP/1.1" 200 1305
+[2025-02-18 17:48:42,797] INFO basehttp 30329 13051273216 "GET /static/styles/file_upload_style.css HTTP/1.1" 200 1309
+[2025-02-18 17:48:57,344] INFO basehttp 30329 13051273216 "GET / HTTP/1.1" 200 1305
+[2025-02-18 17:48:57,353] INFO basehttp 30329 13051273216 "GET /static/styles/file_upload_style.css HTTP/1.1" 200 1309
+[2025-02-18 17:51:48,172] INFO autoreload 30329 8644575744 /Users/br/Desktop/IT/Projects/Lesta/TestTask/words/views.py changed, reloading.
+[2025-02-18 17:51:48,791] INFO autoreload 30526 8635572736 Watching for file changes with StatReloader
+[2025-02-18 17:51:53,973] INFO autoreload 30526 8635572736 /Users/br/Desktop/IT/Projects/Lesta/TestTask/words/views.py changed, reloading.
+[2025-02-18 17:51:54,399] INFO autoreload 30540 8677577216 Watching for file changes with StatReloader
+[2025-02-18 17:51:56,214] INFO basehttp 30540 13100916736 "GET / HTTP/1.1" 200 890
+[2025-02-18 17:51:56,224] INFO basehttp 30540 13100916736 "GET /static/styles/file_upload_style.css HTTP/1.1" 304 0
+[2025-02-18 17:51:56,982] INFO basehttp 30540 13100916736 "GET / HTTP/1.1" 200 890
+[2025-02-18 17:51:57,718] INFO basehttp 30540 13100916736 "GET / HTTP/1.1" 200 890
+[2025-02-18 17:52:34,171] INFO basehttp 30540 13100916736 "POST / HTTP/1.1" 200 890
+[2025-02-18 17:52:34,181] INFO basehttp 30540 13100916736 "GET /static/styles/file_upload_style.css HTTP/1.1" 304 0
+[2025-02-18 17:52:34,182] INFO basehttp 30540 13117706240 "GET /static/scripts/upload_file_script.js HTTP/1.1" 304 0
+[2025-02-18 17:53:05,736] INFO basehttp 30540 13117706240 "GET / HTTP/1.1" 200 891
+[2025-02-18 17:53:06,252] INFO basehttp 30540 13117706240 "GET / HTTP/1.1" 200 891
+[2025-02-18 17:53:06,264] INFO basehttp 30540 13117706240 "GET /static/styles/file_upload_style.css HTTP/1.1" 304 0
+[2025-02-18 17:53:10,075] INFO basehttp 30540 13117706240 "POST / HTTP/1.1" 200 891
+[2025-02-18 17:53:46,451] INFO autoreload 30540 8677577216 /Users/br/Desktop/IT/Projects/Lesta/TestTask/words/views.py changed, reloading.
+[2025-02-18 17:53:46,982] INFO autoreload 30582 8634008064 Watching for file changes with StatReloader
+[2025-02-18 17:53:49,473] INFO basehttp 30582 13015318528 "GET / HTTP/1.1" 200 891
+[2025-02-18 17:53:54,988] INFO basehttp 30582 13015318528 "GET / HTTP/1.1" 200 891
+[2025-02-18 17:53:55,005] INFO basehttp 30582 13015318528 "GET /static/styles/file_upload_style.css HTTP/1.1" 304 0
+[2025-02-18 17:53:58,994] INFO basehttp 30582 13015318528 "POST / HTTP/1.1" 200 891
+[2025-02-18 17:54:28,265] INFO basehttp 30582 13015318528 "GET / HTTP/1.1" 200 891
+[2025-02-18 17:54:49,061] INFO autoreload 30582 8634008064 /Users/br/Desktop/IT/Projects/Lesta/TestTask/words/views.py changed, reloading.
+[2025-02-18 17:54:49,611] INFO autoreload 30609 8603636224 Watching for file changes with StatReloader
+[2025-02-18 17:54:52,149] INFO basehttp 30609 12955443200 "GET / HTTP/1.1" 200 891
+[2025-02-18 17:54:52,162] INFO basehttp 30609 12955443200 "GET /static/styles/file_upload_style.css HTTP/1.1" 304 0
+[2025-02-18 17:54:56,561] INFO basehttp 30609 12955443200 "POST / HTTP/1.1" 200 963
+[2025-02-18 17:55:08,148] INFO autoreload 30609 8603636224 /Users/br/Desktop/IT/Projects/Lesta/TestTask/words/views.py changed, reloading.
+[2025-02-18 17:55:08,582] INFO autoreload 30623 8639902208 Watching for file changes with StatReloader
+[2025-02-18 17:55:11,064] INFO basehttp 30623 13025484800 "GET / HTTP/1.1" 200 891
+[2025-02-18 17:55:17,518] INFO basehttp 30623 13025484800 "GET / HTTP/1.1" 200 891
+[2025-02-18 17:55:20,827] INFO basehttp 30623 13025484800 "POST / HTTP/1.1" 200 963
+[2025-02-18 17:55:30,083] INFO autoreload 30623 8639902208 /Users/br/Desktop/IT/Projects/Lesta/TestTask/words/views.py changed, reloading.
+[2025-02-18 17:55:30,557] INFO autoreload 30635 8671334912 Watching for file changes with StatReloader
+[2025-02-18 17:55:32,307] INFO basehttp 30635 13090996224 "GET / HTTP/1.1" 200 891
+[2025-02-18 17:55:33,111] INFO basehttp 30635 13090996224 "GET / HTTP/1.1" 200 891
+[2025-02-18 17:55:33,124] INFO basehttp 30635 13090996224 "GET /static/styles/file_upload_style.css HTTP/1.1" 304 0
+[2025-02-18 17:55:36,551] INFO basehttp 30635 13090996224 "POST / HTTP/1.1" 200 963
+[2025-02-18 17:55:57,097] INFO autoreload 30635 8671334912 /Users/br/Desktop/IT/Projects/Lesta/TestTask/words/views.py changed, reloading.
+[2025-02-18 17:55:57,524] INFO autoreload 30667 8639410688 Watching for file changes with StatReloader
+[2025-02-18 17:56:00,545] INFO basehttp 30667 13024845824 "GET / HTTP/1.1" 200 891
+[2025-02-18 17:56:10,069] INFO basehttp 30667 13024845824 "GET / HTTP/1.1" 200 891
+[2025-02-18 17:56:13,407] INFO basehttp 30667 13024845824 "POST / HTTP/1.1" 200 979
+[2025-02-18 17:56:13,420] INFO basehttp 30667 13024845824 "GET /static/styles/file_upload_style.css HTTP/1.1" 304 0
+[2025-02-18 17:56:23,102] INFO basehttp 30667 13024845824 "GET / HTTP/1.1" 200 891
+[2025-02-18 17:56:27,553] INFO basehttp 30667 13024845824 "GET / HTTP/1.1" 200 891
+[2025-02-18 17:56:27,566] INFO basehttp 30667 13041635328 "GET /static/scripts/upload_file_script.js HTTP/1.1" 304 0
+[2025-02-18 17:56:27,569] INFO basehttp 30667 13024845824 "GET /static/styles/file_upload_style.css HTTP/1.1" 200 1309
+[2025-02-18 17:56:31,734] INFO basehttp 30667 13041635328 "POST / HTTP/1.1" 200 979
+[2025-02-18 17:57:16,348] INFO basehttp 30667 13024845824 "GET / HTTP/1.1" 200 877
+[2025-02-18 17:57:16,355] INFO basehttp 30667 13024845824 "GET /static/styles/file_upload_style.css HTTP/1.1" 304 0
+[2025-02-18 17:57:19,737] INFO basehttp 30667 13024845824 "POST / HTTP/1.1" 200 999
+[2025-02-18 17:57:24,219] INFO basehttp 30667 13024845824 "GET /admin/ HTTP/1.1" 200 9862
+[2025-02-18 17:57:41,292] INFO autoreload 30667 8639410688 /Users/br/Desktop/IT/Projects/Lesta/TestTask/words/views.py changed, reloading.
+[2025-02-18 17:57:41,844] INFO autoreload 30720 8609169920 Watching for file changes with StatReloader
+[2025-02-18 17:57:43,852] INFO basehttp 30720 12963401728 "GET / HTTP/1.1" 200 877
+[2025-02-18 17:58:05,457] INFO basehttp 30720 12963401728 "GET / HTTP/1.1" 200 890
+[2025-02-18 17:59:34,667] INFO basehttp 30720 12963401728 "GET / HTTP/1.1" 200 890
+[2025-02-18 17:59:34,680] INFO basehttp 30720 12963401728 "GET /static/styles/file_upload_style.css HTTP/1.1" 200 1436
+[2025-02-18 17:59:50,812] INFO basehttp 30720 12963401728 "GET / HTTP/1.1" 200 890
+[2025-02-18 17:59:50,819] INFO basehttp 30720 12963401728 "GET /static/styles/file_upload_style.css HTTP/1.1" 200 1479
+[2025-02-18 18:00:02,426] INFO basehttp 30720 12963401728 "GET / HTTP/1.1" 200 890
+[2025-02-18 18:00:02,432] INFO basehttp 30720 12963401728 "GET /static/styles/file_upload_style.css HTTP/1.1" 200 1479
+[2025-02-18 18:05:27,084] INFO basehttp 30720 12963401728 "GET / HTTP/1.1" 200 890
+[2025-02-18 18:05:27,091] INFO basehttp 30720 12963401728 "GET /static/styles/file_upload_style.css HTTP/1.1" 304 0
+[2025-02-18 18:05:27,093] INFO basehttp 30720 12980191232 "GET /static/scripts/upload_file_script.js HTTP/1.1" 200 768
+[2025-02-18 18:05:45,065] INFO basehttp 30720 12963401728 "GET / HTTP/1.1" 200 890
+[2025-02-18 18:05:45,072] INFO basehttp 30720 12980191232 "GET /static/scripts/upload_file_script.js HTTP/1.1" 304 0
+[2025-02-18 18:05:46,422] INFO basehttp 30720 12963401728 "GET /admin/ HTTP/1.1" 200 9862
+[2025-02-18 18:05:47,884] INFO basehttp 30720 12980191232 "GET / HTTP/1.1" 200 890
+[2025-02-18 18:05:47,893] INFO basehttp 30720 12963401728 "GET /static/scripts/upload_file_script.js HTTP/1.1" 304 0
+[2025-02-18 18:06:03,908] INFO basehttp 30720 12996980736 "GET / HTTP/1.1" 200 890
+[2025-02-18 18:06:03,922] INFO basehttp 30720 12996980736 "GET /static/styles/file_upload_style.css HTTP/1.1" 200 1479
+[2025-02-18 18:06:03,923] INFO basehttp 30720 13013770240 "GET /static/scripts/upload_file_script.js HTTP/1.1" 200 768
+[2025-02-18 18:06:03,946] WARNING log 30720 13013770240 Not Found: /favicon.ico
+[2025-02-18 18:06:03,947] WARNING basehttp 30720 13013770240 "GET /favicon.ico HTTP/1.1" 404 2612
+[2025-02-18 18:06:27,670] INFO basehttp 30720 13013770240 "GET / HTTP/1.1" 200 890
+[2025-02-18 18:06:27,680] INFO basehttp 30720 13013770240 "GET /static/scripts/upload_file_script.js HTTP/1.1" 200 768
+[2025-02-18 18:06:34,208] INFO basehttp 30720 13013770240 "POST / HTTP/1.1" 200 1012
+[2025-02-18 18:06:34,215] INFO basehttp 30720 13013770240 "GET /static/scripts/upload_file_script.js HTTP/1.1" 304 0
+[2025-02-18 18:06:40,655] INFO basehttp 30720 13013770240 "POST / HTTP/1.1" 200 1012
+[2025-02-18 18:06:40,666] INFO basehttp 30720 13013770240 "GET /static/scripts/upload_file_script.js HTTP/1.1" 304 0
+[2025-02-18 18:06:40,666] INFO basehttp 30720 12996980736 "GET /static/styles/file_upload_style.css HTTP/1.1" 304 0
+[2025-02-18 18:06:44,309] INFO basehttp 30720 12996980736 "POST / HTTP/1.1" 200 1012
+[2025-02-18 18:06:44,318] INFO basehttp 30720 12996980736 "GET /static/scripts/upload_file_script.js HTTP/1.1" 304 0
+[2025-02-18 18:08:01,674] INFO basehttp 30720 12963401728 "GET / HTTP/1.1" 200 890
+[2025-02-18 18:08:01,683] INFO basehttp 30720 12963401728 "GET /static/styles/file_upload_style.css HTTP/1.1" 304 0
+[2025-02-18 18:08:01,686] INFO basehttp 30720 12963401728 "GET /static/scripts/upload_file_script.js HTTP/1.1" 200 777
+[2025-02-18 18:08:09,432] INFO basehttp 30720 12980191232 "POST / HTTP/1.1" 200 1012
+[2025-02-18 18:08:09,441] INFO basehttp 30720 12980191232 "GET /static/styles/file_upload_style.css HTTP/1.1" 304 0
+[2025-02-18 18:08:09,443] INFO basehttp 30720 12996980736 "GET /static/scripts/upload_file_script.js HTTP/1.1" 200 777
+[2025-02-18 18:08:12,699] INFO basehttp 30720 12996980736 "POST / HTTP/1.1" 200 1012
+[2025-02-18 18:08:12,709] INFO basehttp 30720 12996980736 "GET /static/scripts/upload_file_script.js HTTP/1.1" 304 0
+[2025-02-18 18:08:13,305] INFO basehttp 30720 12996980736 "POST / HTTP/1.1" 200 1012
+[2025-02-18 18:08:13,830] INFO basehttp 30720 12996980736 "POST / HTTP/1.1" 200 1012
+[2025-02-18 18:08:13,840] INFO basehttp 30720 12996980736 "GET /static/scripts/upload_file_script.js HTTP/1.1" 304 0
+[2025-02-18 18:08:16,043] INFO basehttp 30720 12996980736 "GET / HTTP/1.1" 200 890
+[2025-02-18 18:08:17,871] INFO basehttp 30720 12996980736 "GET / HTTP/1.1" 200 890
+[2025-02-18 18:08:17,880] INFO basehttp 30720 12996980736 "GET /static/scripts/upload_file_script.js HTTP/1.1" 304 0
+[2025-02-18 18:08:18,464] INFO basehttp 30720 12996980736 "GET / HTTP/1.1" 200 890
+[2025-02-18 18:08:18,781] INFO basehttp 30720 12996980736 "GET / HTTP/1.1" 200 890
+[2025-02-18 18:08:30,974] INFO basehttp 30720 12996980736 "GET / HTTP/1.1" 200 890
+[2025-02-18 18:08:30,982] INFO basehttp 30720 12996980736 "GET /static/scripts/upload_file_script.js HTTP/1.1" 304 0
+[2025-02-18 18:08:51,337] INFO basehttp 30720 12996980736 "GET / HTTP/1.1" 200 890
+[2025-02-18 18:08:51,349] INFO basehttp 30720 12996980736 "GET /static/scripts/upload_file_script.js HTTP/1.1" 200 780
+[2025-02-18 18:09:06,689] INFO basehttp 30720 12996980736 "GET / HTTP/1.1" 200 890
+[2025-02-18 18:09:06,704] INFO basehttp 30720 12996980736 "GET /static/styles/file_upload_style.css HTTP/1.1" 304 0
+[2025-02-18 18:09:06,706] INFO basehttp 30720 12980191232 "GET /static/scripts/upload_file_script.js HTTP/1.1" 200 771
+[2025-02-18 18:09:20,754] INFO autoreload 30720 8609169920 /Users/br/Desktop/IT/Projects/Lesta/TestTask/words/views.py changed, reloading.
+[2025-02-18 18:09:21,335] INFO autoreload 30952 8675267072 Watching for file changes with StatReloader
+[2025-02-18 18:09:30,357] INFO basehttp 30952 13098725376 "GET / HTTP/1.1" 200 890
+[2025-02-18 18:09:30,366] INFO basehttp 30952 13098725376 "GET /static/scripts/upload_file_script.js HTTP/1.1" 304 0
+[2025-02-18 18:09:51,631] INFO basehttp 30952 13098725376 "GET / HTTP/1.1" 200 890
+[2025-02-18 18:09:51,649] INFO basehttp 30952 13098725376 "GET /static/scripts/upload_file_script.js HTTP/1.1" 200 771
+[2025-02-18 18:09:52,231] INFO basehttp 30952 13098725376 "GET / HTTP/1.1" 200 890
+[2025-02-18 18:09:52,241] INFO basehttp 30952 13098725376 "GET /static/scripts/upload_file_script.js HTTP/1.1" 304 0
+[2025-02-18 18:09:52,435] INFO basehttp 30952 13098725376 "GET / HTTP/1.1" 200 890
+[2025-02-18 18:09:52,449] INFO basehttp 30952 13098725376 "GET /static/scripts/upload_file_script.js HTTP/1.1" 304 0
+[2025-02-18 18:09:52,574] INFO basehttp 30952 13098725376 "GET / HTTP/1.1" 200 890
+[2025-02-18 18:09:52,583] INFO basehttp 30952 13098725376 "GET /static/scripts/upload_file_script.js HTTP/1.1" 304 0
+[2025-02-18 18:09:55,399] INFO basehttp 30952 13098725376 "POST / HTTP/1.1" 200 1012
+[2025-02-18 18:09:55,407] INFO basehttp 30952 13098725376 "GET /static/scripts/upload_file_script.js HTTP/1.1" 304 0
+[2025-02-18 18:10:05,529] INFO basehttp 30952 13098725376 "GET / HTTP/1.1" 200 890
+[2025-02-18 18:10:09,449] INFO basehttp 30952 13098725376 "GET / HTTP/1.1" 200 890
+[2025-02-18 18:10:09,463] INFO basehttp 30952 13098725376 "GET /static/styles/file_upload_style.css HTTP/1.1" 304 0
+[2025-02-18 18:10:09,464] INFO basehttp 30952 13115514880 "GET /static/scripts/upload_file_script.js HTTP/1.1" 200 768
+[2025-02-18 18:10:12,294] INFO basehttp 30952 13115514880 "POST / HTTP/1.1" 200 1012
+[2025-02-18 18:10:12,307] INFO basehttp 30952 13115514880 "GET /static/scripts/upload_file_script.js HTTP/1.1" 304 0
+[2025-02-18 18:11:35,028] INFO basehttp 30952 13115514880 "POST / HTTP/1.1" 200 1012
+[2025-02-18 18:11:35,035] INFO basehttp 30952 13115514880 "GET /static/styles/file_upload_style.css HTTP/1.1" 304 0
+[2025-02-18 18:11:35,037] INFO basehttp 30952 13115514880 "GET /static/scripts/upload_file_script.js HTTP/1.1" 304 0
+[2025-02-18 18:11:39,142] INFO basehttp 30952 13115514880 "GET / HTTP/1.1" 200 890
+[2025-02-18 18:13:16,133] INFO basehttp 30952 13098725376 "GET / HTTP/1.1" 200 884
+[2025-02-18 18:13:16,140] INFO basehttp 30952 13098725376 "GET /static/styles/file_upload_style.css HTTP/1.1" 304 0
+[2025-02-18 18:13:16,144] INFO basehttp 30952 13115514880 "GET /static/scripts/upload_file_script.js HTTP/1.1" 200 260
+[2025-02-18 18:13:25,480] INFO basehttp 30952 13098725376 "GET / HTTP/1.1" 200 893
+[2025-02-18 18:13:25,489] INFO basehttp 30952 13115514880 "GET /static/scripts/upload_file_script.js HTTP/1.1" 304 0
+[2025-02-18 18:13:38,564] INFO basehttp 30952 13098725376 "POST / HTTP/1.1" 200 893
+[2025-02-18 18:13:38,573] INFO basehttp 30952 13115514880 "GET /static/scripts/upload_file_script.js HTTP/1.1" 304 0
+[2025-02-18 18:13:47,736] INFO autoreload 30952 8675267072 /Users/br/Desktop/IT/Projects/Lesta/TestTask/words/views.py changed, reloading.
+[2025-02-18 18:13:48,320] INFO autoreload 31047 8610710016 Watching for file changes with StatReloader
