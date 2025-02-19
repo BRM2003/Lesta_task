@@ -52,7 +52,6 @@ class WordsInFiles(models.Model):
     file = models.ForeignKey(File, on_delete=models.CASCADE)
     word = models.ForeignKey(Word, on_delete=models.CASCADE)
     count = models.PositiveIntegerField(validators=[MinValueValidator(1, message='Must be at least 1 word in file')])
-    tf_idf = models.FloatField(default=0)
     active = models.BooleanField(default=True)
     cr_on = models.DateTimeField(auto_now_add=True, blank=True, null=True)
     up_on = models.DateTimeField(auto_now=True, blank=True, null=True)

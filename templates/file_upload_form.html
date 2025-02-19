@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
 </head>
 <body>
-    {% if success == False %}
+    {% if not success %}
     <div class="error">
         <p class="message">{{ message }}</p>
     </div>
@@ -18,13 +18,12 @@
     <form action="" method="POST" name="FileForm" enctype="multipart/form-data">
         {% csrf_token %}
         {{ form.path }}
-{#      <input class="file-input" type="file" name="file" accept=".txt" hidden>#}
       <i class="fas fa-cloud-upload-alt"></i>
       <p>Нажмите сюда чтобы загрузить файл</p>
     </form>
   </div>
     <script src="{% static 'scripts/upload_file_script.js' %}"></script>
-    {% if error == True %}
+    {% if not success %}
     <script>
         close_error = () =>
         {

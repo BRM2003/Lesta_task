@@ -1,15 +1,15 @@
 import math
+import re
 
 from django.db.models import Count
 from django.shortcuts import render
-from collections import Counter, defaultdict
+from collections import Counter
 from .models import *
 from .forms import FILE_NAME, FileUploadForm
-import re
 
 
 def file_loader(request):
-    response = {"page_title": 'LestaTask'}
+    response = {"page_title": 'LestaTask', 'success': True}
     try:
         if request.method == 'POST':
             form = FileUploadForm(request.POST, request.FILES)
@@ -41,6 +41,7 @@ def file_loader(request):
         else:
             response['form'] = FileUploadForm()
     except Exception as e:
+        print(str(e))
         response['success'] = False
         response['message'] = str(e)
     return render(request, 'file_upload_form.html', response)

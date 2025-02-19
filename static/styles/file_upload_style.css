@@ -23,7 +23,7 @@ body{
     background: var(--main-color);
 }
 .wrapper{
-    width: 520px;
+    width: min(520px, 100% - 3rem);
     background: var(--second-color);
     border-radius: 5px;
     padding: 50px 30px;
