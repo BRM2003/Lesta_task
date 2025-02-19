@@ -16,6 +16,7 @@ body{
     justify-content: center;
     min-height: 100vh;
     background: var(--main-color);
+    background: linear-gradient(126deg, rgba(91,83,215,1) 0%, rgba(87,133,244,1) 66%, rgba(167,108,236,1) 100%);
 }
 ::selection{
     color: var(--second-color);

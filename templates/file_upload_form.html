@@ -15,9 +15,10 @@
     {% endif %}
     <div class="wrapper">
     <header>50 самых популярных слов в файле</header>
-    <form action="" method="POST" name="FileForm">
+    <form action="" method="POST" name="FileForm" enctype="multipart/form-data">
         {% csrf_token %}
-      <input class="file-input" type="file" name="file" accept=".txt" hidden>
+        {{ form.path }}
+{#      <input class="file-input" type="file" name="file" accept=".txt" hidden>#}
       <i class="fas fa-cloud-upload-alt"></i>
       <p>Нажмите сюда чтобы загрузить файл</p>
     </form>

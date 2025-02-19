@@ -929,3 +929,61 @@ AttributeError: 'WSGIRequest' object has no attribute 'data'
 [2025-02-18 18:13:38,573] INFO basehttp 30952 13115514880 "GET /static/scripts/upload_file_script.js HTTP/1.1" 304 0
 [2025-02-18 18:13:47,736] INFO autoreload 30952 8675267072 /Users/br/Desktop/IT/Projects/Lesta/TestTask/words/views.py changed, reloading.
 [2025-02-18 18:13:48,320] INFO autoreload 31047 8610710016 Watching for file changes with StatReloader
+[2025-02-18 21:21:27,095] INFO autoreload 32142 8679387648 Watching for file changes with StatReloader
+[2025-02-18 21:35:55,862] INFO autoreload 32311 8673575424 Watching for file changes with StatReloader
+[2025-02-18 21:38:17,184] INFO autoreload 32349 8599880192 Watching for file changes with StatReloader
+[2025-02-18 21:38:18,771] INFO basehttp 32349 12948246528 "GET / HTTP/1.1" 200 1027
+[2025-02-18 21:38:18,841] INFO basehttp 32349 12948246528 "GET /static/styles/file_upload_style.css HTTP/1.1" 304 0
+[2025-02-18 21:38:18,841] INFO basehttp 32349 12965036032 "GET /static/scripts/upload_file_script.js HTTP/1.1" 304 0
+[2025-02-18 21:38:36,567] INFO basehttp 32349 12948246528 "GET / HTTP/1.1" 200 950
+[2025-02-18 21:38:37,605] INFO basehttp 32349 12965036032 "GET / HTTP/1.1" 200 950
+[2025-02-18 21:38:40,956] INFO basehttp 32349 12948246528 "GET / HTTP/1.1" 200 950
+[2025-02-18 21:39:00,722] INFO basehttp 32349 12981825536 "GET / HTTP/1.1" 200 950
+[2025-02-18 21:39:00,737] INFO basehttp 32349 12981825536 "GET /static/styles/file_upload_style.css HTTP/1.1" 304 0
+[2025-02-18 21:39:00,747] INFO basehttp 32349 12981825536 "GET /static/scripts/upload_file_script.js HTTP/1.1" 200 260
+[2025-02-18 21:39:00,768] WARNING log 32349 12981825536 Not Found: /favicon.ico
+[2025-02-18 21:39:00,769] WARNING basehttp 32349 12981825536 "GET /favicon.ico HTTP/1.1" 404 2612
+[2025-02-18 21:40:32,072] INFO autoreload 32349 8599880192 /Users/br/Desktop/IT/Projects/Lesta/TestTask/words/forms.py changed, reloading.
+[2025-02-18 21:40:32,550] INFO autoreload 32482 8613032448 Watching for file changes with StatReloader
+[2025-02-18 21:40:34,312] INFO basehttp 32482 12971016192 "GET / HTTP/1.1" 200 950
+[2025-02-18 21:40:36,268] INFO basehttp 32482 12971016192 "GET / HTTP/1.1" 200 950
+[2025-02-18 21:41:30,884] INFO autoreload 32482 8613032448 /Users/br/Desktop/IT/Projects/Lesta/TestTask/words/forms.py changed, reloading.
+[2025-02-18 21:41:31,411] INFO autoreload 32508 8600646144 Watching for file changes with StatReloader
+[2025-02-18 21:41:33,884] INFO basehttp 32508 12947865600 "GET / HTTP/1.1" 200 950
+[2025-02-18 21:41:35,166] INFO basehttp 32508 12947865600 "GET / HTTP/1.1" 200 950
+[2025-02-18 21:41:46,197] INFO basehttp 32508 12947865600 "GET / HTTP/1.1" 200 1027
+[2025-02-18 21:42:19,577] INFO autoreload 32508 8600646144 /Users/br/Desktop/IT/Projects/Lesta/TestTask/words/forms.py changed, reloading.
+[2025-02-18 21:42:20,037] INFO autoreload 32526 8615166464 Watching for file changes with StatReloader
+[2025-02-18 21:42:21,739] INFO basehttp 32526 12976861184 "GET / HTTP/1.1" 200 1027
+[2025-02-18 21:42:22,942] INFO basehttp 32526 12976861184 "GET / HTTP/1.1" 200 1027
+[2025-02-18 21:42:34,397] INFO basehttp 32526 12976861184 "GET / HTTP/1.1" 200 1027
+[2025-02-18 21:42:38,904] INFO basehttp 32526 12976861184 "GET / HTTP/1.1" 200 1027
+[2025-02-18 21:42:38,923] INFO basehttp 32526 12976861184 "GET /static/styles/file_upload_style.css HTTP/1.1" 200 1479
+[2025-02-18 21:42:38,923] INFO basehttp 32526 12993650688 "GET /static/scripts/upload_file_script.js HTTP/1.1" 200 260
+[2025-02-18 21:42:41,788] WARNING log 32526 12993650688 Not Found: /favicon.ico
+[2025-02-18 21:42:41,789] WARNING basehttp 32526 12993650688 "GET /favicon.ico HTTP/1.1" 404 2612
+[2025-02-18 21:44:31,609] INFO autoreload 32526 8615166464 /Users/br/Desktop/IT/Projects/Lesta/TestTask/words/views.py changed, reloading.
+[2025-02-18 21:44:32,058] INFO autoreload 32576 8610419200 Watching for file changes with StatReloader
+[2025-02-18 21:44:35,094] INFO basehttp 32576 12968869888 "GET / HTTP/1.1" 200 893
+[2025-02-18 21:44:39,440] INFO basehttp 32576 12968869888 "POST / HTTP/1.1" 200 893
+[2025-02-18 21:45:52,651] INFO autoreload 32576 8610419200 /Users/br/Desktop/IT/Projects/Lesta/TestTask/words/views.py changed, reloading.
+[2025-02-18 21:45:53,050] INFO autoreload 32610 8605331968 Watching for file changes with StatReloader
+[2025-02-18 21:46:00,370] INFO basehttp 32610 12956303360 "POST / HTTP/1.1" 200 1030
+[2025-02-18 21:46:04,343] INFO basehttp 32610 12956303360 "POST / HTTP/1.1" 200 1030
+[2025-02-18 21:46:04,990] INFO basehttp 32610 12956303360 "POST / HTTP/1.1" 200 1030
+[2025-02-18 21:46:05,754] INFO basehttp 32610 12956303360 "GET / HTTP/1.1" 200 893
+[2025-02-18 21:46:06,540] INFO basehttp 32610 12956303360 "GET / HTTP/1.1" 200 893
+[2025-02-18 21:46:10,799] INFO basehttp 32610 12956303360 "POST / HTTP/1.1" 200 1030
+[2025-02-18 21:48:39,146] INFO autoreload 32610 8605331968 /Users/br/Desktop/IT/Projects/Lesta/TestTask/words/views.py changed, reloading.
+[2025-02-18 21:48:39,612] INFO autoreload 32653 8642736640 Watching for file changes with StatReloader
+[2025-02-18 21:48:41,130] INFO basehttp 32653 13030944768 "POST / HTTP/1.1" 200 1023
+[2025-02-18 21:49:07,262] INFO autoreload 32653 8642736640 /Users/br/Desktop/IT/Projects/Lesta/TestTask/words/views.py changed, reloading.
+[2025-02-18 21:49:07,692] INFO autoreload 32673 8645808640 Watching for file changes with StatReloader
+[2025-02-18 21:49:08,808] INFO basehttp 32673 13036883968 "POST / HTTP/1.1" 200 1023
+[2025-02-18 21:49:12,974] INFO autoreload 32673 8645808640 /Users/br/Desktop/IT/Projects/Lesta/TestTask/words/views.py changed, reloading.
+[2025-02-18 21:49:13,425] INFO autoreload 32680 8638325248 Watching for file changes with StatReloader
+[2025-02-18 21:49:14,425] INFO basehttp 32680 13022875648 "POST / HTTP/1.1" 200 1030
+[2025-02-18 21:49:28,820] INFO autoreload 32680 8638325248 /Users/br/Desktop/IT/Projects/Lesta/TestTask/words/views.py changed, reloading.
+[2025-02-18 21:49:29,221] INFO autoreload 32696 8609907200 Watching for file changes with StatReloader
+[2025-02-18 21:49:31,072] INFO basehttp 32696 12968271872 "POST / HTTP/1.1" 200 1021
+[2025-02-19 09:44:31,566] INFO autoreload 32696 8609907200 /Users/br/Desktop/IT/Projects/Lesta/TestTask/words/views.py changed, reloading.
