@@ -1,12 +1,15 @@
+import math
+
+from django.db.models import Count
 from django.shortcuts import render
-from collections import Counter
+from collections import Counter, defaultdict
 from .models import *
 from .forms import FILE_NAME, FileUploadForm
 import re
 
 
 def file_loader(request):
-    response = {}
+    response = {"page_title": 'LestaTask'}
     try:
         if request.method == 'POST':
             form = FileUploadForm(request.POST, request.FILES)
@@ -28,7 +31,13 @@ def file_loader(request):
             save_new_words(word_list)
             save_words_in_files(file, word_count)
 
-            response['form'] = form
+            results_tf = calculate_tf(word_count)
+            results_idf = calculate_idf(word_count)
+
+            response['result'] = summarize_tf_and_idf(results_tf, results_idf, word_count)
+            response['success'] = True
+
+            return render(request, "table.html", response)
         else:
             response['form'] = FileUploadForm()
     except Exception as e:
@@ -73,4 +82,46 @@ def save_words_in_files(file, word_counts):
 
     if word_file_entries:
         WordsInFiles.objects.bulk_create(word_file_entries)
+
+
+def calculate_tf(words_count):
+    word_c = words_count.copy()
+    total_words = sum(list(map(lambda item: word_c[item], word_c)))
+
+    for word in word_c:
+        word_c[word] = round(word_c[word] / total_words, 4)
+
+    return word_c
+
+
+def calculate_idf(word_list):
+    total_documents = File.objects.count()
+
+    words_with_doc_count = Word.objects.annotate(
+        doc_count=Count("wordsinfiles__file", distinct=True)
+    ).filter(word_value__in=word_list).values("word_value", "doc_count")
+
+    idf_values = {
+        word["word_value"]: round(math.log(total_documents / word["doc_count"], 10), 4)
+        for word in words_with_doc_count
+    }
+
+    return idf_values
+
+
+def summarize_tf_and_idf(tf, idf, word_count):
+    result = []
+    for word in word_count:
+        result.append(
+            {
+                "word": word,
+                "count": word_count[word],
+                "tf": tf[word],
+                "idf": idf[word],
+                "word_weight": round(tf[word] * idf[word], 4)
+            }
+        )
+
+    result = sorted(result, key=lambda item: item['idf'], reverse=True)
+    return result[:50]
 

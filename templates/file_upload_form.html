@@ -1,9 +1,9 @@
 {% load static %}
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>LestaTask</title>
+    <title>{{ page_title }}</title>
     <link rel="stylesheet" href="{% static 'styles/file_upload_style.css' %}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
 </head>
@@ -14,7 +14,7 @@
     </div>
     {% endif %}
     <div class="wrapper">
-    <header>50 самых популярных слов в файле</header>
+    <header>50 самых важных слов в файле</header>
     <form action="" method="POST" name="FileForm" enctype="multipart/form-data">
         {% csrf_token %}
         {{ form.path }}

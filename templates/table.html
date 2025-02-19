@@ -1,0 +1,42 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ page_title }}</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+        <table>
+            <tr>
+                <th>Word</th>
+                <th>Count</th>
+                <th>TF (Term Frequency)</th>
+                <th>IDF (Inverse Document Frequency)</th>
+                <th>TF-IDF</th>
+            </tr>
+            {% for row in result %}
+            <tr>
+                <td>{{ row.word }}</td>
+                <td>{{ row.count }}</td>
+                <td>{{ row.tf }}</td>
+                <td>{{ row.idf }}</td>
+                <td>{{ row.word_weight }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+</body>
+</html>
