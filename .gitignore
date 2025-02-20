@@ -1,3 +1,3 @@
-logs/
-files/
-testenv/
+logs/*
+files/*
+testenv/*

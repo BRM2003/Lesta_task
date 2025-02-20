@@ -27,12 +27,13 @@ class WordAdmin(admin.ModelAdmin):
 
 @admin.register(models.WordsInFiles)
 class WordsInFilesAdmin(admin.ModelAdmin):
+    autocomplete_fields = ['file', 'word']
     list_display = ['id', 'file', 'word', 'count', 'active', 'cr_on']
     list_editable = ['active']
     list_per_page = 20
-    list_filter = ['count', 'active', 'cr_on']
+    list_filter = ['active', 'cr_on']
     ordering = ['-cr_on']
     readonly_fields = ['cr_on', 'up_on']
-    search_fields = ['id', 'file', 'word', 'count']
+    search_fields = ['id', 'file__file_name', 'word__word_value', 'count']
 
 

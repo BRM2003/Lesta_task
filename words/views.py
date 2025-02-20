@@ -1,6 +1,7 @@
 import math
 import re
 
+from django.contrib.auth.models import AnonymousUser
 from django.db.models import Count
 from django.shortcuts import render
 from collections import Counter
@@ -41,7 +42,7 @@ def file_loader(request):
         else:
             response['form'] = FileUploadForm()
     except Exception as e:
-        print(str(e))
+        response['form'] = FileUploadForm()
         response['success'] = False
         response['message'] = str(e)
     return render(request, 'file_upload_form.html', response)
@@ -50,7 +51,7 @@ def file_loader(request):
 def save_file(form, file, user=None):
     obj = form.save(commit=False)
     obj.path = file
-    obj.users = user
+    obj.user_file = None if isinstance(user, AnonymousUser) else user
     obj.file_name = file.name
     obj.format = str(file.name).split('.')[-1]
     obj.save()
